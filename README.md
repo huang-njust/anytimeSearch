@@ -7,10 +7,13 @@ It usually finds a near-optimal solution quickly and continuously improves the s
 They are developed via C#. 
 
 For more information about its procedures, please refer to:
+
 [1] Bo Huang, MengChu Zhou, XiaoYu Sean Lu, and Abdullah Abusorrah. Scheduling of Resource Allocation Systems with Timed Petri Nets: A Survey. ACM Computing Surveys, pp. 1-28, 2022, DOI: 10.1145/3570326.
+
 [2] A Petri Net-based Anytime A∗ Search for Scheduling Resource Allocation Systems. Submitted.
 
 If you have any question about it, please feel free to contact me.
 
 Bo Huang, email: huangbo@njust.edu.cn
+
 Feb. 1, 2023.
