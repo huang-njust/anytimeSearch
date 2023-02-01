@@ -1,0 +1,1034 @@
+=====================Start of a run# 1=======================
+Date & time: 2022/10/26 星期三 20:12:07
+Petri net=ChenFig566, h=7, Open size=0, h2=2
+ep(for A^*_ep)=0.5, ep2(for h dynamic weighting)=0.5
+---------------------------------------------------------------
+Run #:1
+Makespan:124
+Newly expanded markings #:106
+Total expanded markings #:106
+This run time：0.315 seconds   (i.e., hours=0, minutes=0, seconds=0, milliseconds=315)
+Total time：0.315 seconds   (i.e., hours=0, minutes=0, seconds=0, milliseconds=315)
+===============================================================
+************* The best schedule found so far： ***********
+
+Node list:
+1)	loop:0	f:0	g:0	h:0	tFireFrom:1	Depth:0 tEnabled:1 9 	M:1(6)8(6)14 15 16 17 18 19 	R:
+2)	loop:0	f:96	g:0	h:96	tFireFrom:9	Depth:1 tEnabled:1 10 	M:1(6)8(5)9 14 15 16 17 18 	R:[9，1]:2 
+3)	loop:0	f:96	g:0	h:96	tFireFrom:1	Depth:2 tEnabled:2 3 10 	M:1(5)2 8(5)9 14 15 16 17 	R:[2，1]:3 [9，1]:2 
+4)	loop:0	f:96	g:2	h:94	tFireFrom:10	Depth:3 tEnabled:2 3 9 	M:1(5)2 8(5)10 14 15 16 19 	R:[2，1]:1 [10，1]:4 
+5)	loop:0	f:96	g:2	h:94	tFireFrom:9	Depth:4 tEnabled:2 3 	M:1(5)2 8(4)9 10 14 15 16 	R:[2，1]:1 [9，1]:2 [10，1]:4 
+6)	loop:0	f:96	g:3	h:93	tFireFrom:3	Depth:5 tEnabled:1 4 11 	M:1(5)4 8(4)9 10 15 16 18 	R:[4，1]:4 [9，1]:1 [10，1]:3 
+7)	loop:0	f:96	g:3	h:93	tFireFrom:1	Depth:6 tEnabled:2 	M:1(4)2 4 8(4)9 10 15 16 	R:[2，1]:3 [4，1]:4 [9，1]:1 [10，1]:3 
+8)	loop:0	f:96	g:6	h:90	tFireFrom:2	Depth:7 tEnabled:1 4 5 11 	M:1(4)3 4 8(4)9 10 16 18 	R:[3，1]:2 [4，1]:1 
+9)	loop:0	f:98	g:8	h:90	tFireFrom:5	Depth:8 tEnabled:6 	M:1(4)4 5 8(4)9 10 15 16 	R:[5，1]:4 
+10)	loop:0	f:98	g:12	h:86	tFireFrom:6	Depth:9 tEnabled:1 4 11 	M:1(4)4 6 8(4)9 10 15 18 	R:[6，1]:3 
+11)	loop:0	f:98	g:12	h:86	tFireFrom:11	Depth:10 tEnabled:10 12 	M:1(4)4 6 8(4)9 11 15 17 	R:[6，1]:3 [11，1]:4 
+12)	loop:0	f:98	g:16	h:82	tFireFrom:12	Depth:11 tEnabled:1 4 10 13 	M:1(4)4 6 8(4)9 12 17 18 	R:[12，1]:3 
+13)	loop:0	f:98	g:16	h:82	tFireFrom:10	Depth:12 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(4)10 12 18 19 	R:[10，1]:4 [12，1]:3 
+14)	loop:0	f:98	g:16	h:82	tFireFrom:9	Depth:13 tEnabled:1 4 11 13 	M:1(4)4 6 8(3)9 10 12 18 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+15)	loop:0	f:101	g:19	h:82	tFireFrom:13	Depth:14 tEnabled:14 	M:1(4)4 6 8(3)9 10 13 15 	R:[10，1]:1 [13，1]:5 
+16)	loop:0	f:101	g:24	h:77	tFireFrom:14	Depth:15 tEnabled:1 4 11 	M:1(4)4 6 8(3)9 10 15 18 21 	R:
+17)	loop:0	f:101	g:24	h:77	tFireFrom:11	Depth:16 tEnabled:10 12 	M:1(4)4 6 8(3)9 11 15 17 21 	R:[11，1]:4 
+18)	loop:0	f:101	g:28	h:73	tFireFrom:12	Depth:17 tEnabled:1 4 10 13 	M:1(4)4 6 8(3)9 12 17 18 21 	R:[12，1]:3 
+19)	loop:0	f:101	g:28	h:73	tFireFrom:10	Depth:18 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(3)10 12 18 19 21 	R:[10，1]:4 [12，1]:3 
+20)	loop:0	f:101	g:28	h:73	tFireFrom:9	Depth:19 tEnabled:1 4 11 13 	M:1(4)4 6 8(2)9 10 12 18 21 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+21)	loop:0	f:104	g:31	h:73	tFireFrom:13	Depth:20 tEnabled:14 	M:1(4)4 6 8(2)9 10 13 15 21 	R:[10，1]:1 [13，1]:5 
+22)	loop:0	f:104	g:36	h:68	tFireFrom:14	Depth:21 tEnabled:1 4 11 	M:1(4)4 6 8(2)9 10 15 18 21(2)	R:
+23)	loop:0	f:104	g:36	h:68	tFireFrom:11	Depth:22 tEnabled:10 12 	M:1(4)4 6 8(2)9 11 15 17 21(2)	R:[11，1]:4 
+24)	loop:0	f:104	g:40	h:64	tFireFrom:12	Depth:23 tEnabled:1 4 10 13 	M:1(4)4 6 8(2)9 12 17 18 21(2)	R:[12，1]:3 
+25)	loop:0	f:104	g:40	h:64	tFireFrom:10	Depth:24 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(2)10 12 18 19 21(2)	R:[10，1]:4 [12，1]:3 
+26)	loop:0	f:104	g:40	h:64	tFireFrom:9	Depth:25 tEnabled:1 4 11 13 	M:1(4)4 6 8 9 10 12 18 21(2)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+27)	loop:0	f:107	g:43	h:64	tFireFrom:13	Depth:26 tEnabled:14 	M:1(4)4 6 8 9 10 13 15 21(2)	R:[10，1]:1 [13，1]:5 
+28)	loop:0	f:107	g:48	h:59	tFireFrom:14	Depth:27 tEnabled:1 4 11 	M:1(4)4 6 8 9 10 15 18 21(3)	R:
+29)	loop:0	f:107	g:48	h:59	tFireFrom:11	Depth:28 tEnabled:10 12 	M:1(4)4 6 8 9 11 15 17 21(3)	R:[11，1]:4 
+30)	loop:0	f:107	g:52	h:55	tFireFrom:12	Depth:29 tEnabled:1 4 10 13 	M:1(4)4 6 8 9 12 17 18 21(3)	R:[12，1]:3 
+31)	loop:0	f:107	g:52	h:55	tFireFrom:10	Depth:30 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8 10 12 18 19 21(3)	R:[10，1]:4 [12，1]:3 
+32)	loop:0	f:107	g:52	h:55	tFireFrom:9	Depth:31 tEnabled:1 4 11 13 	M:1(4)4 6 9 10 12 18 21(3)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+33)	loop:0	f:110	g:55	h:55	tFireFrom:13	Depth:32 tEnabled:14 	M:1(4)4 6 9 10 13 15 21(3)	R:[10，1]:1 [13，1]:5 
+34)	loop:0	f:110	g:60	h:50	tFireFrom:14	Depth:33 tEnabled:1 4 11 	M:1(4)4 6 9 10 15 18 21(4)	R:
+35)	loop:0	f:110	g:60	h:50	tFireFrom:11	Depth:34 tEnabled:10 12 	M:1(4)4 6 9 11 15 17 21(4)	R:[11，1]:4 
+36)	loop:0	f:110	g:64	h:46	tFireFrom:12	Depth:35 tEnabled:1 4 10 13 	M:1(4)4 6 9 12 17 18 21(4)	R:[12，1]:3 
+37)	loop:0	f:110	g:64	h:46	tFireFrom:10	Depth:36 tEnabled:1 4 7 11 13 	M:1(4)4 6 10 12 18 19 21(4)	R:[10，1]:4 [12，1]:3 
+38)	loop:0	f:110	g:64	h:46	tFireFrom:7	Depth:37 tEnabled:1 4 8 11 13 	M:1(4)4 7 10 12 16 18 21(4)	R:[7，1]:5 [10，1]:4 [12，1]:3 
+39)	loop:0	f:110	g:64	h:46	tFireFrom:4	Depth:38 tEnabled:6 8 	M:1(4)5 7 10 12 14 16 21(4)	R:[5，1]:4 [7，1]:5 [10，1]:4 [12，1]:3 
+40)	loop:0	f:110	g:68	h:42	tFireFrom:6	Depth:39 tEnabled:1 8 11 13 	M:1(4)6 7 10 12 14 18 21(4)	R:[6，1]:3 [7，1]:1 
+41)	loop:0	f:110	g:68	h:42	tFireFrom:13	Depth:40 tEnabled:8 14 	M:1(4)6 7 10 13 14 15 21(4)	R:[6，1]:3 [7，1]:1 [13，1]:5 
+42)	loop:0	f:110	g:73	h:37	tFireFrom:14	Depth:41 tEnabled:1 8 11 	M:1(4)6 7 10 14 15 18 21(5)	R:
+43)	loop:0	f:110	g:73	h:37	tFireFrom:11	Depth:42 tEnabled:8 12 	M:1(4)6 7 11 14 15 17 21(5)	R:[11，1]:4 
+44)	loop:0	f:110	g:77	h:33	tFireFrom:12	Depth:43 tEnabled:1 8 13 	M:1(4)6 7 12 14 17 18 21(5)	R:[12，1]:3 
+45)	loop:0	f:110	g:77	h:33	tFireFrom:8	Depth:44 tEnabled:1 7 13 	M:1(4)6 12 14 17 18 19 20 21(5)	R:[12，1]:3 
+46)	loop:0	f:110	g:77	h:33	tFireFrom:7	Depth:45 tEnabled:1 8 13 	M:1(4)7 12 14 16 17 18 20 21(5)	R:[7，1]:5 [12，1]:3 
+47)	loop:0	f:110	g:77	h:33	tFireFrom:1	Depth:46 tEnabled:3 8 	M:1(3)2 7 12 14 16 17 20 21(5)	R:[2，1]:3 [7，1]:5 [12，1]:3 
+48)	loop:0	f:110	g:80	h:30	tFireFrom:3	Depth:47 tEnabled:1 4 8 13 	M:1(3)4 7 12 16 17 18 20 21(5)	R:[4，1]:4 [7，1]:2 
+49)	loop:0	f:110	g:80	h:30	tFireFrom:13	Depth:48 tEnabled:8 14 	M:1(3)4 7 13 15 16 17 20 21(5)	R:[4，1]:4 [7，1]:2 [13，1]:5 
+50)	loop:0	f:110	g:85	h:25	tFireFrom:14	Depth:49 tEnabled:1 4 8 	M:1(3)4 7 15 16 17 18 20 21(6)	R:
+51)	loop:0	f:110	g:85	h:25	tFireFrom:8	Depth:50 tEnabled:1 4 	M:1(3)4 15 16 17 18 19 20(2)21(6)	R:
+52)	loop:0	f:110	g:85	h:25	tFireFrom:4	Depth:51 tEnabled:6 	M:1(3)5 14 15 16 17 19 20(2)21(6)	R:[5，1]:4 
+53)	loop:0	f:110	g:89	h:21	tFireFrom:6	Depth:52 tEnabled:1 7 	M:1(3)6 14 15 17 18 19 20(2)21(6)	R:[6，1]:3 
+54)	loop:0	f:110	g:89	h:21	tFireFrom:1	Depth:53 tEnabled:2 3 7 	M:1(2)2 6 14 15 17 19 20(2)21(6)	R:[2，1]:3 [6，1]:3 
+55)	loop:0	f:110	g:92	h:18	tFireFrom:7	Depth:54 tEnabled:2 3 8 	M:1(2)2 7 14 15 16 17 20(2)21(6)	R:[7，1]:5 
+56)	loop:0	f:110	g:92	h:18	tFireFrom:3	Depth:55 tEnabled:1 4 8 	M:1(2)4 7 15 16 17 18 20(2)21(6)	R:[4，1]:4 [7，1]:5 
+57)	loop:0	f:110	g:92	h:18	tFireFrom:1	Depth:56 tEnabled:2 8 	M:1 2 4 7 15 16 17 20(2)21(6)	R:[2，1]:3 [4，1]:4 [7，1]:5 
+58)	loop:0	f:110	g:95	h:15	tFireFrom:2	Depth:57 tEnabled:1 4 5 8 	M:1 3 4 7 16 17 18 20(2)21(6)	R:[3，1]:2 [4，1]:1 [7，1]:2 
+59)	loop:0	f:111	g:96	h:15	tFireFrom:4	Depth:58 tEnabled:6 8 	M:1 3 5 7 14 16 17 20(2)21(6)	R:[3，1]:1 [5，1]:4 [7，1]:1 
+60)	loop:0	f:112	g:97	h:15	tFireFrom:8	Depth:59 tEnabled:6 	M:1 3 5 14 16 17 19 20(3)21(6)	R:[5，1]:3 
+61)	loop:0	f:115	g:100	h:15	tFireFrom:6	Depth:60 tEnabled:1 5 7 	M:1 3 6 14 17 18 19 20(3)21(6)	R:[6，1]:3 
+62)	loop:0	f:114	g:103	h:11	tFireFrom:7	Depth:61 tEnabled:1 5 8 	M:1 3 7 14 16 17 18 20(3)21(6)	R:[7，1]:5 
+63)	loop:0	f:114	g:103	h:11	tFireFrom:5	Depth:62 tEnabled:6 8 	M:1 5 7 14 15 16 17 20(3)21(6)	R:[5，1]:4 [7，1]:5 
+64)	loop:0	f:117	g:107	h:10	tFireFrom:6	Depth:63 tEnabled:1 8 	M:1 6 7 14 15 17 18 20(3)21(6)	R:[6，1]:3 [7，1]:1 
+65)	loop:0	f:117	g:107	h:10	tFireFrom:1	Depth:64 tEnabled:2 3 8 	M:2 6 7 14 15 17 20(3)21(6)	R:[2，1]:3 [6，1]:3 [7，1]:1 
+66)	loop:0	f:118	g:108	h:10	tFireFrom:8	Depth:65 tEnabled:2 3 7 	M:2 6 14 15 17 19 20(4)21(6)	R:[2，1]:2 [6，1]:2 
+67)	loop:0	f:115	g:110	h:5	tFireFrom:7	Depth:66 tEnabled:2 3 8 	M:2 7 14 15 16 17 20(4)21(6)	R:[7，1]:5 
+68)	loop:0	f:115	g:110	h:5	tFireFrom:2	Depth:67 tEnabled:5 8 	M:3 7 14 16 17 18 20(4)21(6)	R:[3，1]:2 [7，1]:5 
+69)	loop:0	f:117	g:112	h:5	tFireFrom:5	Depth:68 tEnabled:6 8 	M:5 7 14 15 16 17 20(4)21(6)	R:[5，1]:4 [7，1]:3 
+70)	loop:0	f:120	g:115	h:5	tFireFrom:8	Depth:69 tEnabled:6 	M:5 14 15 16 17 19 20(5)21(6)	R:[5，1]:1 
+71)	loop:0	f:121	g:116	h:5	tFireFrom:6	Depth:70 tEnabled:7 	M:6 14 15 17 18 19 20(5)21(6)	R:[6，1]:3 
+72)	loop:0	f:124	g:119	h:5	tFireFrom:7	Depth:71 tEnabled:8 	M:7 14 15 16 17 18 20(5)21(6)	R:[7，1]:5 
+73)	loop:0	f:124	g:124	h:0	tFireFrom:8	Depth:72 tEnabled:	M:14 15 16 17 18 19 20(6)21(6)	R:
+=============================================================
+=======================End of a run==========================
+
+
+
+
+=====================Start of a run# 2=======================
+Date & time: 2022/10/26 星期三 20:12:07
+Petri net=ChenFig566, h=7, Open size=0, h2=2
+ep(for A^*_ep)=0.5, ep2(for h dynamic weighting)=0.5
+---------------------------------------------------------------
+Run #:2
+Makespan:123
+Newly expanded markings #:49
+Total expanded markings #:155
+This run time：0.233 seconds   (i.e., hours=0, minutes=0, seconds=0, milliseconds=233)
+Total time：0.548 seconds   (i.e., hours=0, minutes=0, seconds=0, milliseconds=548)
+===============================================================
+************* The best schedule found so far： ***********
+
+Node list:
+1)	loop:0	f:0	g:0	h:0	tFireFrom:1	Depth:0 tEnabled:1 9 	M:1(6)8(6)14 15 16 17 18 19 	R:
+2)	loop:0	f:96	g:0	h:96	tFireFrom:9	Depth:1 tEnabled:1 10 	M:1(6)8(5)9 14 15 16 17 18 	R:[9，1]:2 
+3)	loop:0	f:96	g:0	h:96	tFireFrom:1	Depth:2 tEnabled:2 3 10 	M:1(5)2 8(5)9 14 15 16 17 	R:[2，1]:3 [9，1]:2 
+4)	loop:0	f:96	g:2	h:94	tFireFrom:10	Depth:3 tEnabled:2 3 9 	M:1(5)2 8(5)10 14 15 16 19 	R:[2，1]:1 [10，1]:4 
+5)	loop:0	f:96	g:2	h:94	tFireFrom:9	Depth:4 tEnabled:2 3 	M:1(5)2 8(4)9 10 14 15 16 	R:[2，1]:1 [9，1]:2 [10，1]:4 
+6)	loop:0	f:96	g:3	h:93	tFireFrom:3	Depth:5 tEnabled:1 4 11 	M:1(5)4 8(4)9 10 15 16 18 	R:[4，1]:4 [9，1]:1 [10，1]:3 
+7)	loop:0	f:96	g:3	h:93	tFireFrom:1	Depth:6 tEnabled:2 	M:1(4)2 4 8(4)9 10 15 16 	R:[2，1]:3 [4，1]:4 [9，1]:1 [10，1]:3 
+8)	loop:0	f:96	g:6	h:90	tFireFrom:2	Depth:7 tEnabled:1 4 5 11 	M:1(4)3 4 8(4)9 10 16 18 	R:[3，1]:2 [4，1]:1 
+9)	loop:0	f:98	g:8	h:90	tFireFrom:5	Depth:8 tEnabled:6 	M:1(4)4 5 8(4)9 10 15 16 	R:[5，1]:4 
+10)	loop:0	f:98	g:12	h:86	tFireFrom:6	Depth:9 tEnabled:1 4 11 	M:1(4)4 6 8(4)9 10 15 18 	R:[6，1]:3 
+11)	loop:0	f:98	g:12	h:86	tFireFrom:11	Depth:10 tEnabled:10 12 	M:1(4)4 6 8(4)9 11 15 17 	R:[6，1]:3 [11，1]:4 
+12)	loop:0	f:98	g:16	h:82	tFireFrom:12	Depth:11 tEnabled:1 4 10 13 	M:1(4)4 6 8(4)9 12 17 18 	R:[12，1]:3 
+13)	loop:0	f:98	g:16	h:82	tFireFrom:10	Depth:12 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(4)10 12 18 19 	R:[10，1]:4 [12，1]:3 
+14)	loop:0	f:98	g:16	h:82	tFireFrom:9	Depth:13 tEnabled:1 4 11 13 	M:1(4)4 6 8(3)9 10 12 18 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+15)	loop:0	f:101	g:19	h:82	tFireFrom:13	Depth:14 tEnabled:14 	M:1(4)4 6 8(3)9 10 13 15 	R:[10，1]:1 [13，1]:5 
+16)	loop:0	f:101	g:24	h:77	tFireFrom:14	Depth:15 tEnabled:1 4 11 	M:1(4)4 6 8(3)9 10 15 18 21 	R:
+17)	loop:0	f:101	g:24	h:77	tFireFrom:11	Depth:16 tEnabled:10 12 	M:1(4)4 6 8(3)9 11 15 17 21 	R:[11，1]:4 
+18)	loop:0	f:101	g:28	h:73	tFireFrom:12	Depth:17 tEnabled:1 4 10 13 	M:1(4)4 6 8(3)9 12 17 18 21 	R:[12，1]:3 
+19)	loop:0	f:101	g:28	h:73	tFireFrom:10	Depth:18 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(3)10 12 18 19 21 	R:[10，1]:4 [12，1]:3 
+20)	loop:0	f:101	g:28	h:73	tFireFrom:9	Depth:19 tEnabled:1 4 11 13 	M:1(4)4 6 8(2)9 10 12 18 21 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+21)	loop:0	f:104	g:31	h:73	tFireFrom:13	Depth:20 tEnabled:14 	M:1(4)4 6 8(2)9 10 13 15 21 	R:[10，1]:1 [13，1]:5 
+22)	loop:0	f:104	g:36	h:68	tFireFrom:14	Depth:21 tEnabled:1 4 11 	M:1(4)4 6 8(2)9 10 15 18 21(2)	R:
+23)	loop:0	f:104	g:36	h:68	tFireFrom:11	Depth:22 tEnabled:10 12 	M:1(4)4 6 8(2)9 11 15 17 21(2)	R:[11，1]:4 
+24)	loop:0	f:104	g:40	h:64	tFireFrom:12	Depth:23 tEnabled:1 4 10 13 	M:1(4)4 6 8(2)9 12 17 18 21(2)	R:[12，1]:3 
+25)	loop:0	f:104	g:40	h:64	tFireFrom:10	Depth:24 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(2)10 12 18 19 21(2)	R:[10，1]:4 [12，1]:3 
+26)	loop:0	f:104	g:40	h:64	tFireFrom:9	Depth:25 tEnabled:1 4 11 13 	M:1(4)4 6 8 9 10 12 18 21(2)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+27)	loop:0	f:107	g:43	h:64	tFireFrom:13	Depth:26 tEnabled:14 	M:1(4)4 6 8 9 10 13 15 21(2)	R:[10，1]:1 [13，1]:5 
+28)	loop:0	f:107	g:48	h:59	tFireFrom:14	Depth:27 tEnabled:1 4 11 	M:1(4)4 6 8 9 10 15 18 21(3)	R:
+29)	loop:0	f:107	g:48	h:59	tFireFrom:11	Depth:28 tEnabled:10 12 	M:1(4)4 6 8 9 11 15 17 21(3)	R:[11，1]:4 
+30)	loop:0	f:107	g:52	h:55	tFireFrom:12	Depth:29 tEnabled:1 4 10 13 	M:1(4)4 6 8 9 12 17 18 21(3)	R:[12，1]:3 
+31)	loop:0	f:107	g:52	h:55	tFireFrom:10	Depth:30 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8 10 12 18 19 21(3)	R:[10，1]:4 [12，1]:3 
+32)	loop:0	f:107	g:52	h:55	tFireFrom:9	Depth:31 tEnabled:1 4 11 13 	M:1(4)4 6 9 10 12 18 21(3)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+33)	loop:0	f:110	g:55	h:55	tFireFrom:13	Depth:32 tEnabled:14 	M:1(4)4 6 9 10 13 15 21(3)	R:[10，1]:1 [13，1]:5 
+34)	loop:0	f:110	g:60	h:50	tFireFrom:14	Depth:33 tEnabled:1 4 11 	M:1(4)4 6 9 10 15 18 21(4)	R:
+35)	loop:0	f:110	g:60	h:50	tFireFrom:11	Depth:34 tEnabled:10 12 	M:1(4)4 6 9 11 15 17 21(4)	R:[11，1]:4 
+36)	loop:0	f:110	g:64	h:46	tFireFrom:12	Depth:35 tEnabled:1 4 10 13 	M:1(4)4 6 9 12 17 18 21(4)	R:[12，1]:3 
+37)	loop:0	f:110	g:64	h:46	tFireFrom:10	Depth:36 tEnabled:1 4 7 11 13 	M:1(4)4 6 10 12 18 19 21(4)	R:[10，1]:4 [12，1]:3 
+38)	loop:0	f:110	g:64	h:46	tFireFrom:7	Depth:37 tEnabled:1 4 8 11 13 	M:1(4)4 7 10 12 16 18 21(4)	R:[7，1]:5 [10，1]:4 [12，1]:3 
+39)	loop:0	f:110	g:64	h:46	tFireFrom:4	Depth:38 tEnabled:6 8 	M:1(4)5 7 10 12 14 16 21(4)	R:[5，1]:4 [7，1]:5 [10，1]:4 [12，1]:3 
+40)	loop:0	f:110	g:68	h:42	tFireFrom:6	Depth:39 tEnabled:1 8 11 13 	M:1(4)6 7 10 12 14 18 21(4)	R:[6，1]:3 [7，1]:1 
+41)	loop:0	f:110	g:68	h:42	tFireFrom:13	Depth:40 tEnabled:8 14 	M:1(4)6 7 10 13 14 15 21(4)	R:[6，1]:3 [7，1]:1 [13，1]:5 
+42)	loop:0	f:110	g:73	h:37	tFireFrom:14	Depth:41 tEnabled:1 8 11 	M:1(4)6 7 10 14 15 18 21(5)	R:
+43)	loop:0	f:110	g:73	h:37	tFireFrom:11	Depth:42 tEnabled:8 12 	M:1(4)6 7 11 14 15 17 21(5)	R:[11，1]:4 
+44)	loop:0	f:110	g:77	h:33	tFireFrom:12	Depth:43 tEnabled:1 8 13 	M:1(4)6 7 12 14 17 18 21(5)	R:[12，1]:3 
+45)	loop:0	f:110	g:77	h:33	tFireFrom:8	Depth:44 tEnabled:1 7 13 	M:1(4)6 12 14 17 18 19 20 21(5)	R:[12，1]:3 
+46)	loop:0	f:110	g:77	h:33	tFireFrom:7	Depth:45 tEnabled:1 8 13 	M:1(4)7 12 14 16 17 18 20 21(5)	R:[7，1]:5 [12，1]:3 
+47)	loop:0	f:110	g:77	h:33	tFireFrom:1	Depth:46 tEnabled:3 8 	M:1(3)2 7 12 14 16 17 20 21(5)	R:[2，1]:3 [7，1]:5 [12，1]:3 
+48)	loop:0	f:110	g:80	h:30	tFireFrom:3	Depth:47 tEnabled:1 4 8 13 	M:1(3)4 7 12 16 17 18 20 21(5)	R:[4，1]:4 [7，1]:2 
+49)	loop:0	f:110	g:80	h:30	tFireFrom:13	Depth:48 tEnabled:8 14 	M:1(3)4 7 13 15 16 17 20 21(5)	R:[4，1]:4 [7，1]:2 [13，1]:5 
+50)	loop:0	f:110	g:85	h:25	tFireFrom:14	Depth:49 tEnabled:1 4 8 	M:1(3)4 7 15 16 17 18 20 21(6)	R:
+51)	loop:0	f:110	g:85	h:25	tFireFrom:8	Depth:50 tEnabled:1 4 	M:1(3)4 15 16 17 18 19 20(2)21(6)	R:
+52)	loop:0	f:110	g:85	h:25	tFireFrom:4	Depth:51 tEnabled:6 	M:1(3)5 14 15 16 17 19 20(2)21(6)	R:[5，1]:4 
+53)	loop:0	f:110	g:89	h:21	tFireFrom:6	Depth:52 tEnabled:1 7 	M:1(3)6 14 15 17 18 19 20(2)21(6)	R:[6，1]:3 
+54)	loop:0	f:110	g:89	h:21	tFireFrom:1	Depth:53 tEnabled:2 3 7 	M:1(2)2 6 14 15 17 19 20(2)21(6)	R:[2，1]:3 [6，1]:3 
+55)	loop:0	f:110	g:92	h:18	tFireFrom:7	Depth:54 tEnabled:2 3 8 	M:1(2)2 7 14 15 16 17 20(2)21(6)	R:[7，1]:5 
+56)	loop:0	f:110	g:92	h:18	tFireFrom:3	Depth:55 tEnabled:1 4 8 	M:1(2)4 7 15 16 17 18 20(2)21(6)	R:[4，1]:4 [7，1]:5 
+57)	loop:0	f:110	g:92	h:18	tFireFrom:1	Depth:56 tEnabled:2 8 	M:1 2 4 7 15 16 17 20(2)21(6)	R:[2，1]:3 [4，1]:4 [7，1]:5 
+58)	loop:0	f:110	g:95	h:15	tFireFrom:2	Depth:57 tEnabled:1 4 5 8 	M:1 3 4 7 16 17 18 20(2)21(6)	R:[3，1]:2 [4，1]:1 [7，1]:2 
+59)	loop:0	f:111	g:96	h:15	tFireFrom:4	Depth:58 tEnabled:6 8 	M:1 3 5 7 14 16 17 20(2)21(6)	R:[3，1]:1 [5，1]:4 [7，1]:1 
+60)	loop:0	f:112	g:97	h:15	tFireFrom:8	Depth:59 tEnabled:6 	M:1 3 5 14 16 17 19 20(3)21(6)	R:[5，1]:3 
+61)	loop:0	f:115	g:100	h:15	tFireFrom:6	Depth:60 tEnabled:1 5 7 	M:1 3 6 14 17 18 19 20(3)21(6)	R:[6，1]:3 
+62)	loop:0	f:114	g:103	h:11	tFireFrom:7	Depth:61 tEnabled:1 5 8 	M:1 3 7 14 16 17 18 20(3)21(6)	R:[7，1]:5 
+63)	loop:0	f:114	g:103	h:11	tFireFrom:1	Depth:62 tEnabled:3 8 	M:2 3 7 14 16 17 20(3)21(6)	R:[2，1]:3 [7，1]:5 
+64)	loop:0	f:116	g:106	h:10	tFireFrom:3	Depth:63 tEnabled:4 5 8 	M:3 4 7 16 17 18 20(3)21(6)	R:[4，1]:4 [7，1]:2 
+65)	loop:0	f:116	g:106	h:10	tFireFrom:5	Depth:64 tEnabled:6 8 	M:4 5 7 15 16 17 20(3)21(6)	R:[4，1]:4 [5，1]:4 [7，1]:2 
+66)	loop:0	f:118	g:108	h:10	tFireFrom:8	Depth:65 tEnabled:6 	M:4 5 15 16 17 19 20(4)21(6)	R:[4，1]:2 [5，1]:2 
+67)	loop:0	f:120	g:110	h:10	tFireFrom:6	Depth:66 tEnabled:4 7 	M:4 6 15 17 18 19 20(4)21(6)	R:[6，1]:3 
+68)	loop:0	f:120	g:110	h:10	tFireFrom:4	Depth:67 tEnabled:7 	M:5 6 14 15 17 19 20(4)21(6)	R:[5，1]:4 [6，1]:3 
+69)	loop:0	f:118	g:113	h:5	tFireFrom:7	Depth:68 tEnabled:6 8 	M:5 7 14 15 16 17 20(4)21(6)	R:[5，1]:1 [7，1]:5 
+70)	loop:0	f:119	g:114	h:5	tFireFrom:6	Depth:69 tEnabled:8 	M:6 7 14 15 17 18 20(4)21(6)	R:[6，1]:3 [7，1]:4 
+71)	loop:0	f:123	g:118	h:5	tFireFrom:8	Depth:70 tEnabled:7 	M:6 14 15 17 18 19 20(5)21(6)	R:
+72)	loop:0	f:123	g:118	h:5	tFireFrom:7	Depth:71 tEnabled:8 	M:7 14 15 16 17 18 20(5)21(6)	R:[7，1]:5 
+73)	loop:0	f:123	g:123	h:0	tFireFrom:8	Depth:72 tEnabled:	M:14 15 16 17 18 19 20(6)21(6)	R:
+=============================================================
+=======================End of a run==========================
+
+
+
+
+=====================Start of a run# 3=======================
+Date & time: 2022/10/26 星期三 20:12:07
+Petri net=ChenFig566, h=7, Open size=0, h2=2
+ep(for A^*_ep)=0.5, ep2(for h dynamic weighting)=0.5
+---------------------------------------------------------------
+Run #:3
+Makespan:121
+Newly expanded markings #:145
+Total expanded markings #:194
+This run time：0.151 seconds   (i.e., hours=0, minutes=0, seconds=0, milliseconds=151)
+Total time：0.699 seconds   (i.e., hours=0, minutes=0, seconds=0, milliseconds=699)
+===============================================================
+************* The best schedule found so far： ***********
+
+Node list:
+1)	loop:0	f:0	g:0	h:0	tFireFrom:1	Depth:0 tEnabled:1 9 	M:1(6)8(6)14 15 16 17 18 19 	R:
+2)	loop:0	f:96	g:0	h:96	tFireFrom:9	Depth:1 tEnabled:1 10 	M:1(6)8(5)9 14 15 16 17 18 	R:[9，1]:2 
+3)	loop:0	f:96	g:0	h:96	tFireFrom:1	Depth:2 tEnabled:2 3 10 	M:1(5)2 8(5)9 14 15 16 17 	R:[2，1]:3 [9，1]:2 
+4)	loop:0	f:96	g:2	h:94	tFireFrom:10	Depth:3 tEnabled:2 3 9 	M:1(5)2 8(5)10 14 15 16 19 	R:[2，1]:1 [10，1]:4 
+5)	loop:0	f:96	g:2	h:94	tFireFrom:9	Depth:4 tEnabled:2 3 	M:1(5)2 8(4)9 10 14 15 16 	R:[2，1]:1 [9，1]:2 [10，1]:4 
+6)	loop:0	f:96	g:3	h:93	tFireFrom:3	Depth:5 tEnabled:1 4 11 	M:1(5)4 8(4)9 10 15 16 18 	R:[4，1]:4 [9，1]:1 [10，1]:3 
+7)	loop:0	f:96	g:3	h:93	tFireFrom:1	Depth:6 tEnabled:2 	M:1(4)2 4 8(4)9 10 15 16 	R:[2，1]:3 [4，1]:4 [9，1]:1 [10，1]:3 
+8)	loop:0	f:96	g:6	h:90	tFireFrom:2	Depth:7 tEnabled:1 4 5 11 	M:1(4)3 4 8(4)9 10 16 18 	R:[3，1]:2 [4，1]:1 
+9)	loop:0	f:98	g:8	h:90	tFireFrom:5	Depth:8 tEnabled:6 	M:1(4)4 5 8(4)9 10 15 16 	R:[5，1]:4 
+10)	loop:0	f:98	g:12	h:86	tFireFrom:6	Depth:9 tEnabled:1 4 11 	M:1(4)4 6 8(4)9 10 15 18 	R:[6，1]:3 
+11)	loop:0	f:98	g:12	h:86	tFireFrom:11	Depth:10 tEnabled:10 12 	M:1(4)4 6 8(4)9 11 15 17 	R:[6，1]:3 [11，1]:4 
+12)	loop:0	f:98	g:16	h:82	tFireFrom:12	Depth:11 tEnabled:1 4 10 13 	M:1(4)4 6 8(4)9 12 17 18 	R:[12，1]:3 
+13)	loop:0	f:98	g:16	h:82	tFireFrom:10	Depth:12 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(4)10 12 18 19 	R:[10，1]:4 [12，1]:3 
+14)	loop:0	f:98	g:16	h:82	tFireFrom:9	Depth:13 tEnabled:1 4 11 13 	M:1(4)4 6 8(3)9 10 12 18 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+15)	loop:0	f:101	g:19	h:82	tFireFrom:13	Depth:14 tEnabled:14 	M:1(4)4 6 8(3)9 10 13 15 	R:[10，1]:1 [13，1]:5 
+16)	loop:0	f:101	g:24	h:77	tFireFrom:14	Depth:15 tEnabled:1 4 11 	M:1(4)4 6 8(3)9 10 15 18 21 	R:
+17)	loop:0	f:101	g:24	h:77	tFireFrom:11	Depth:16 tEnabled:10 12 	M:1(4)4 6 8(3)9 11 15 17 21 	R:[11，1]:4 
+18)	loop:0	f:101	g:28	h:73	tFireFrom:12	Depth:17 tEnabled:1 4 10 13 	M:1(4)4 6 8(3)9 12 17 18 21 	R:[12，1]:3 
+19)	loop:0	f:101	g:28	h:73	tFireFrom:10	Depth:18 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(3)10 12 18 19 21 	R:[10，1]:4 [12，1]:3 
+20)	loop:0	f:101	g:28	h:73	tFireFrom:9	Depth:19 tEnabled:1 4 11 13 	M:1(4)4 6 8(2)9 10 12 18 21 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+21)	loop:0	f:104	g:31	h:73	tFireFrom:13	Depth:20 tEnabled:14 	M:1(4)4 6 8(2)9 10 13 15 21 	R:[10，1]:1 [13，1]:5 
+22)	loop:0	f:104	g:36	h:68	tFireFrom:14	Depth:21 tEnabled:1 4 11 	M:1(4)4 6 8(2)9 10 15 18 21(2)	R:
+23)	loop:0	f:104	g:36	h:68	tFireFrom:11	Depth:22 tEnabled:10 12 	M:1(4)4 6 8(2)9 11 15 17 21(2)	R:[11，1]:4 
+24)	loop:0	f:104	g:40	h:64	tFireFrom:12	Depth:23 tEnabled:1 4 10 13 	M:1(4)4 6 8(2)9 12 17 18 21(2)	R:[12，1]:3 
+25)	loop:0	f:104	g:40	h:64	tFireFrom:10	Depth:24 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(2)10 12 18 19 21(2)	R:[10，1]:4 [12，1]:3 
+26)	loop:0	f:104	g:40	h:64	tFireFrom:9	Depth:25 tEnabled:1 4 11 13 	M:1(4)4 6 8 9 10 12 18 21(2)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+27)	loop:0	f:107	g:43	h:64	tFireFrom:13	Depth:26 tEnabled:14 	M:1(4)4 6 8 9 10 13 15 21(2)	R:[10，1]:1 [13，1]:5 
+28)	loop:0	f:107	g:48	h:59	tFireFrom:14	Depth:27 tEnabled:1 4 11 	M:1(4)4 6 8 9 10 15 18 21(3)	R:
+29)	loop:0	f:107	g:48	h:59	tFireFrom:11	Depth:28 tEnabled:10 12 	M:1(4)4 6 8 9 11 15 17 21(3)	R:[11，1]:4 
+30)	loop:0	f:107	g:52	h:55	tFireFrom:12	Depth:29 tEnabled:1 4 10 13 	M:1(4)4 6 8 9 12 17 18 21(3)	R:[12，1]:3 
+31)	loop:0	f:107	g:52	h:55	tFireFrom:10	Depth:30 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8 10 12 18 19 21(3)	R:[10，1]:4 [12，1]:3 
+32)	loop:0	f:107	g:52	h:55	tFireFrom:9	Depth:31 tEnabled:1 4 11 13 	M:1(4)4 6 9 10 12 18 21(3)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+33)	loop:0	f:110	g:55	h:55	tFireFrom:13	Depth:32 tEnabled:14 	M:1(4)4 6 9 10 13 15 21(3)	R:[10，1]:1 [13，1]:5 
+34)	loop:0	f:110	g:60	h:50	tFireFrom:14	Depth:33 tEnabled:1 4 11 	M:1(4)4 6 9 10 15 18 21(4)	R:
+35)	loop:0	f:110	g:60	h:50	tFireFrom:11	Depth:34 tEnabled:10 12 	M:1(4)4 6 9 11 15 17 21(4)	R:[11，1]:4 
+36)	loop:0	f:110	g:64	h:46	tFireFrom:12	Depth:35 tEnabled:1 4 10 13 	M:1(4)4 6 9 12 17 18 21(4)	R:[12，1]:3 
+37)	loop:0	f:110	g:64	h:46	tFireFrom:10	Depth:36 tEnabled:1 4 7 11 13 	M:1(4)4 6 10 12 18 19 21(4)	R:[10，1]:4 [12，1]:3 
+38)	loop:0	f:110	g:64	h:46	tFireFrom:7	Depth:37 tEnabled:1 4 8 11 13 	M:1(4)4 7 10 12 16 18 21(4)	R:[7，1]:5 [10，1]:4 [12，1]:3 
+39)	loop:0	f:110	g:64	h:46	tFireFrom:4	Depth:38 tEnabled:6 8 	M:1(4)5 7 10 12 14 16 21(4)	R:[5，1]:4 [7，1]:5 [10，1]:4 [12，1]:3 
+40)	loop:0	f:110	g:68	h:42	tFireFrom:6	Depth:39 tEnabled:1 8 11 13 	M:1(4)6 7 10 12 14 18 21(4)	R:[6，1]:3 [7，1]:1 
+41)	loop:0	f:110	g:68	h:42	tFireFrom:13	Depth:40 tEnabled:8 14 	M:1(4)6 7 10 13 14 15 21(4)	R:[6，1]:3 [7，1]:1 [13，1]:5 
+42)	loop:0	f:110	g:73	h:37	tFireFrom:14	Depth:41 tEnabled:1 8 11 	M:1(4)6 7 10 14 15 18 21(5)	R:
+43)	loop:0	f:110	g:73	h:37	tFireFrom:11	Depth:42 tEnabled:8 12 	M:1(4)6 7 11 14 15 17 21(5)	R:[11，1]:4 
+44)	loop:0	f:110	g:77	h:33	tFireFrom:12	Depth:43 tEnabled:1 8 13 	M:1(4)6 7 12 14 17 18 21(5)	R:[12，1]:3 
+45)	loop:0	f:110	g:77	h:33	tFireFrom:8	Depth:44 tEnabled:1 7 13 	M:1(4)6 12 14 17 18 19 20 21(5)	R:[12，1]:3 
+46)	loop:0	f:110	g:77	h:33	tFireFrom:7	Depth:45 tEnabled:1 8 13 	M:1(4)7 12 14 16 17 18 20 21(5)	R:[7，1]:5 [12，1]:3 
+47)	loop:0	f:110	g:77	h:33	tFireFrom:1	Depth:46 tEnabled:3 8 	M:1(3)2 7 12 14 16 17 20 21(5)	R:[2，1]:3 [7，1]:5 [12，1]:3 
+48)	loop:0	f:110	g:80	h:30	tFireFrom:3	Depth:47 tEnabled:1 4 8 13 	M:1(3)4 7 12 16 17 18 20 21(5)	R:[4，1]:4 [7，1]:2 
+49)	loop:0	f:110	g:80	h:30	tFireFrom:13	Depth:48 tEnabled:8 14 	M:1(3)4 7 13 15 16 17 20 21(5)	R:[4，1]:4 [7，1]:2 [13，1]:5 
+50)	loop:0	f:110	g:85	h:25	tFireFrom:14	Depth:49 tEnabled:1 4 8 	M:1(3)4 7 15 16 17 18 20 21(6)	R:
+51)	loop:0	f:110	g:85	h:25	tFireFrom:8	Depth:50 tEnabled:1 4 	M:1(3)4 15 16 17 18 19 20(2)21(6)	R:
+52)	loop:0	f:110	g:85	h:25	tFireFrom:4	Depth:51 tEnabled:6 	M:1(3)5 14 15 16 17 19 20(2)21(6)	R:[5，1]:4 
+53)	loop:0	f:110	g:89	h:21	tFireFrom:6	Depth:52 tEnabled:1 7 	M:1(3)6 14 15 17 18 19 20(2)21(6)	R:[6，1]:3 
+54)	loop:0	f:110	g:89	h:21	tFireFrom:1	Depth:53 tEnabled:2 3 7 	M:1(2)2 6 14 15 17 19 20(2)21(6)	R:[2，1]:3 [6，1]:3 
+55)	loop:0	f:110	g:92	h:18	tFireFrom:7	Depth:54 tEnabled:2 3 8 	M:1(2)2 7 14 15 16 17 20(2)21(6)	R:[7，1]:5 
+56)	loop:0	f:110	g:92	h:18	tFireFrom:3	Depth:55 tEnabled:1 4 8 	M:1(2)4 7 15 16 17 18 20(2)21(6)	R:[4，1]:4 [7，1]:5 
+57)	loop:0	f:110	g:92	h:18	tFireFrom:1	Depth:56 tEnabled:2 8 	M:1 2 4 7 15 16 17 20(2)21(6)	R:[2，1]:3 [4，1]:4 [7，1]:5 
+58)	loop:0	f:110	g:95	h:15	tFireFrom:2	Depth:57 tEnabled:1 4 5 8 	M:1 3 4 7 16 17 18 20(2)21(6)	R:[3，1]:2 [4，1]:1 [7，1]:2 
+59)	loop:0	f:111	g:96	h:15	tFireFrom:4	Depth:58 tEnabled:6 8 	M:1 3 5 7 14 16 17 20(2)21(6)	R:[3，1]:1 [5，1]:4 [7，1]:1 
+60)	loop:0	f:112	g:97	h:15	tFireFrom:8	Depth:59 tEnabled:6 	M:1 3 5 14 16 17 19 20(3)21(6)	R:[5，1]:3 
+61)	loop:0	f:115	g:100	h:15	tFireFrom:6	Depth:60 tEnabled:1 5 7 	M:1 3 6 14 17 18 19 20(3)21(6)	R:[6，1]:3 
+62)	loop:0	f:115	g:100	h:15	tFireFrom:5	Depth:61 tEnabled:7 	M:1 5 6 14 15 17 19 20(3)21(6)	R:[5，1]:4 [6，1]:3 
+63)	loop:0	f:113	g:103	h:10	tFireFrom:7	Depth:62 tEnabled:6 8 	M:1 5 7 14 15 16 17 20(3)21(6)	R:[5，1]:1 [7，1]:5 
+64)	loop:0	f:114	g:104	h:10	tFireFrom:6	Depth:63 tEnabled:1 8 	M:1 6 7 14 15 17 18 20(3)21(6)	R:[6，1]:3 [7，1]:4 
+65)	loop:0	f:114	g:104	h:10	tFireFrom:1	Depth:64 tEnabled:2 3 8 	M:2 6 7 14 15 17 20(3)21(6)	R:[2，1]:3 [6，1]:3 [7，1]:4 
+66)	loop:0	f:117	g:107	h:10	tFireFrom:2	Depth:65 tEnabled:5 8 	M:3 6 7 14 17 18 20(3)21(6)	R:[3，1]:2 [7，1]:1 
+67)	loop:0	f:118	g:108	h:10	tFireFrom:8	Depth:66 tEnabled:5 7 	M:3 6 14 17 18 19 20(4)21(6)	R:[3，1]:1 
+68)	loop:0	f:113	g:108	h:5	tFireFrom:7	Depth:67 tEnabled:5 8 	M:3 7 14 16 17 18 20(4)21(6)	R:[3，1]:1 [7，1]:5 
+69)	loop:0	f:114	g:109	h:5	tFireFrom:5	Depth:68 tEnabled:6 8 	M:5 7 14 15 16 17 20(4)21(6)	R:[5，1]:4 [7，1]:4 
+70)	loop:0	f:118	g:113	h:5	tFireFrom:8	Depth:69 tEnabled:6 	M:5 14 15 16 17 19 20(5)21(6)	R:
+71)	loop:0	f:118	g:113	h:5	tFireFrom:6	Depth:70 tEnabled:7 	M:6 14 15 17 18 19 20(5)21(6)	R:[6，1]:3 
+72)	loop:0	f:121	g:116	h:5	tFireFrom:7	Depth:71 tEnabled:8 	M:7 14 15 16 17 18 20(5)21(6)	R:[7，1]:5 
+73)	loop:0	f:121	g:121	h:0	tFireFrom:8	Depth:72 tEnabled:	M:14 15 16 17 18 19 20(6)21(6)	R:
+=============================================================
+=======================End of a run==========================
+
+
+
+
+=====================Start of a run# 4=======================
+Date & time: 2022/10/26 星期三 20:12:07
+Petri net=ChenFig566, h=7, Open size=0, h2=2
+ep(for A^*_ep)=0.5, ep2(for h dynamic weighting)=0.5
+---------------------------------------------------------------
+Run #:4
+Makespan:120
+Newly expanded markings #:95
+Total expanded markings #:240
+This run time：0.159 seconds   (i.e., hours=0, minutes=0, seconds=0, milliseconds=159)
+Total time：0.858 seconds   (i.e., hours=0, minutes=0, seconds=0, milliseconds=858)
+===============================================================
+************* The best schedule found so far： ***********
+
+Node list:
+1)	loop:0	f:0	g:0	h:0	tFireFrom:1	Depth:0 tEnabled:1 9 	M:1(6)8(6)14 15 16 17 18 19 	R:
+2)	loop:0	f:96	g:0	h:96	tFireFrom:9	Depth:1 tEnabled:1 10 	M:1(6)8(5)9 14 15 16 17 18 	R:[9，1]:2 
+3)	loop:0	f:96	g:0	h:96	tFireFrom:1	Depth:2 tEnabled:2 3 10 	M:1(5)2 8(5)9 14 15 16 17 	R:[2，1]:3 [9，1]:2 
+4)	loop:0	f:96	g:2	h:94	tFireFrom:10	Depth:3 tEnabled:2 3 9 	M:1(5)2 8(5)10 14 15 16 19 	R:[2，1]:1 [10，1]:4 
+5)	loop:0	f:96	g:2	h:94	tFireFrom:9	Depth:4 tEnabled:2 3 	M:1(5)2 8(4)9 10 14 15 16 	R:[2，1]:1 [9，1]:2 [10，1]:4 
+6)	loop:0	f:96	g:3	h:93	tFireFrom:3	Depth:5 tEnabled:1 4 11 	M:1(5)4 8(4)9 10 15 16 18 	R:[4，1]:4 [9，1]:1 [10，1]:3 
+7)	loop:0	f:96	g:3	h:93	tFireFrom:1	Depth:6 tEnabled:2 	M:1(4)2 4 8(4)9 10 15 16 	R:[2，1]:3 [4，1]:4 [9，1]:1 [10，1]:3 
+8)	loop:0	f:96	g:6	h:90	tFireFrom:2	Depth:7 tEnabled:1 4 5 11 	M:1(4)3 4 8(4)9 10 16 18 	R:[3，1]:2 [4，1]:1 
+9)	loop:0	f:98	g:8	h:90	tFireFrom:5	Depth:8 tEnabled:6 	M:1(4)4 5 8(4)9 10 15 16 	R:[5，1]:4 
+10)	loop:0	f:98	g:12	h:86	tFireFrom:6	Depth:9 tEnabled:1 4 11 	M:1(4)4 6 8(4)9 10 15 18 	R:[6，1]:3 
+11)	loop:0	f:98	g:12	h:86	tFireFrom:11	Depth:10 tEnabled:10 12 	M:1(4)4 6 8(4)9 11 15 17 	R:[6，1]:3 [11，1]:4 
+12)	loop:0	f:98	g:16	h:82	tFireFrom:12	Depth:11 tEnabled:1 4 10 13 	M:1(4)4 6 8(4)9 12 17 18 	R:[12，1]:3 
+13)	loop:0	f:98	g:16	h:82	tFireFrom:10	Depth:12 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(4)10 12 18 19 	R:[10，1]:4 [12，1]:3 
+14)	loop:0	f:98	g:16	h:82	tFireFrom:9	Depth:13 tEnabled:1 4 11 13 	M:1(4)4 6 8(3)9 10 12 18 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+15)	loop:0	f:101	g:19	h:82	tFireFrom:13	Depth:14 tEnabled:14 	M:1(4)4 6 8(3)9 10 13 15 	R:[10，1]:1 [13，1]:5 
+16)	loop:0	f:101	g:24	h:77	tFireFrom:14	Depth:15 tEnabled:1 4 11 	M:1(4)4 6 8(3)9 10 15 18 21 	R:
+17)	loop:0	f:101	g:24	h:77	tFireFrom:11	Depth:16 tEnabled:10 12 	M:1(4)4 6 8(3)9 11 15 17 21 	R:[11，1]:4 
+18)	loop:0	f:101	g:28	h:73	tFireFrom:12	Depth:17 tEnabled:1 4 10 13 	M:1(4)4 6 8(3)9 12 17 18 21 	R:[12，1]:3 
+19)	loop:0	f:101	g:28	h:73	tFireFrom:10	Depth:18 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(3)10 12 18 19 21 	R:[10，1]:4 [12，1]:3 
+20)	loop:0	f:101	g:28	h:73	tFireFrom:9	Depth:19 tEnabled:1 4 11 13 	M:1(4)4 6 8(2)9 10 12 18 21 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+21)	loop:0	f:104	g:31	h:73	tFireFrom:13	Depth:20 tEnabled:14 	M:1(4)4 6 8(2)9 10 13 15 21 	R:[10，1]:1 [13，1]:5 
+22)	loop:0	f:104	g:36	h:68	tFireFrom:14	Depth:21 tEnabled:1 4 11 	M:1(4)4 6 8(2)9 10 15 18 21(2)	R:
+23)	loop:0	f:104	g:36	h:68	tFireFrom:11	Depth:22 tEnabled:10 12 	M:1(4)4 6 8(2)9 11 15 17 21(2)	R:[11，1]:4 
+24)	loop:0	f:104	g:40	h:64	tFireFrom:12	Depth:23 tEnabled:1 4 10 13 	M:1(4)4 6 8(2)9 12 17 18 21(2)	R:[12，1]:3 
+25)	loop:0	f:104	g:40	h:64	tFireFrom:10	Depth:24 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(2)10 12 18 19 21(2)	R:[10，1]:4 [12，1]:3 
+26)	loop:0	f:104	g:40	h:64	tFireFrom:9	Depth:25 tEnabled:1 4 11 13 	M:1(4)4 6 8 9 10 12 18 21(2)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+27)	loop:0	f:107	g:43	h:64	tFireFrom:13	Depth:26 tEnabled:14 	M:1(4)4 6 8 9 10 13 15 21(2)	R:[10，1]:1 [13，1]:5 
+28)	loop:0	f:107	g:48	h:59	tFireFrom:14	Depth:27 tEnabled:1 4 11 	M:1(4)4 6 8 9 10 15 18 21(3)	R:
+29)	loop:0	f:107	g:48	h:59	tFireFrom:11	Depth:28 tEnabled:10 12 	M:1(4)4 6 8 9 11 15 17 21(3)	R:[11，1]:4 
+30)	loop:0	f:107	g:52	h:55	tFireFrom:12	Depth:29 tEnabled:1 4 10 13 	M:1(4)4 6 8 9 12 17 18 21(3)	R:[12，1]:3 
+31)	loop:0	f:107	g:52	h:55	tFireFrom:10	Depth:30 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8 10 12 18 19 21(3)	R:[10，1]:4 [12，1]:3 
+32)	loop:0	f:107	g:52	h:55	tFireFrom:9	Depth:31 tEnabled:1 4 11 13 	M:1(4)4 6 9 10 12 18 21(3)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+33)	loop:0	f:110	g:55	h:55	tFireFrom:13	Depth:32 tEnabled:14 	M:1(4)4 6 9 10 13 15 21(3)	R:[10，1]:1 [13，1]:5 
+34)	loop:0	f:110	g:60	h:50	tFireFrom:14	Depth:33 tEnabled:1 4 11 	M:1(4)4 6 9 10 15 18 21(4)	R:
+35)	loop:0	f:110	g:60	h:50	tFireFrom:11	Depth:34 tEnabled:10 12 	M:1(4)4 6 9 11 15 17 21(4)	R:[11，1]:4 
+36)	loop:0	f:110	g:64	h:46	tFireFrom:12	Depth:35 tEnabled:1 4 10 13 	M:1(4)4 6 9 12 17 18 21(4)	R:[12，1]:3 
+37)	loop:0	f:110	g:64	h:46	tFireFrom:10	Depth:36 tEnabled:1 4 7 11 13 	M:1(4)4 6 10 12 18 19 21(4)	R:[10，1]:4 [12，1]:3 
+38)	loop:0	f:110	g:64	h:46	tFireFrom:7	Depth:37 tEnabled:1 4 8 11 13 	M:1(4)4 7 10 12 16 18 21(4)	R:[7，1]:5 [10，1]:4 [12，1]:3 
+39)	loop:0	f:110	g:64	h:46	tFireFrom:4	Depth:38 tEnabled:6 8 	M:1(4)5 7 10 12 14 16 21(4)	R:[5，1]:4 [7，1]:5 [10，1]:4 [12，1]:3 
+40)	loop:0	f:110	g:68	h:42	tFireFrom:6	Depth:39 tEnabled:1 8 11 13 	M:1(4)6 7 10 12 14 18 21(4)	R:[6，1]:3 [7，1]:1 
+41)	loop:0	f:110	g:68	h:42	tFireFrom:13	Depth:40 tEnabled:8 14 	M:1(4)6 7 10 13 14 15 21(4)	R:[6，1]:3 [7，1]:1 [13，1]:5 
+42)	loop:0	f:110	g:73	h:37	tFireFrom:14	Depth:41 tEnabled:1 8 11 	M:1(4)6 7 10 14 15 18 21(5)	R:
+43)	loop:0	f:110	g:73	h:37	tFireFrom:11	Depth:42 tEnabled:8 12 	M:1(4)6 7 11 14 15 17 21(5)	R:[11，1]:4 
+44)	loop:0	f:110	g:77	h:33	tFireFrom:12	Depth:43 tEnabled:1 8 13 	M:1(4)6 7 12 14 17 18 21(5)	R:[12，1]:3 
+45)	loop:0	f:110	g:77	h:33	tFireFrom:8	Depth:44 tEnabled:1 7 13 	M:1(4)6 12 14 17 18 19 20 21(5)	R:[12，1]:3 
+46)	loop:0	f:110	g:77	h:33	tFireFrom:7	Depth:45 tEnabled:1 8 13 	M:1(4)7 12 14 16 17 18 20 21(5)	R:[7，1]:5 [12，1]:3 
+47)	loop:0	f:110	g:77	h:33	tFireFrom:1	Depth:46 tEnabled:3 8 	M:1(3)2 7 12 14 16 17 20 21(5)	R:[2，1]:3 [7，1]:5 [12，1]:3 
+48)	loop:0	f:110	g:80	h:30	tFireFrom:3	Depth:47 tEnabled:1 4 8 13 	M:1(3)4 7 12 16 17 18 20 21(5)	R:[4，1]:4 [7，1]:2 
+49)	loop:0	f:110	g:80	h:30	tFireFrom:13	Depth:48 tEnabled:8 14 	M:1(3)4 7 13 15 16 17 20 21(5)	R:[4，1]:4 [7，1]:2 [13，1]:5 
+50)	loop:0	f:110	g:85	h:25	tFireFrom:14	Depth:49 tEnabled:1 4 8 	M:1(3)4 7 15 16 17 18 20 21(6)	R:
+51)	loop:0	f:110	g:85	h:25	tFireFrom:8	Depth:50 tEnabled:1 4 	M:1(3)4 15 16 17 18 19 20(2)21(6)	R:
+52)	loop:0	f:110	g:85	h:25	tFireFrom:4	Depth:51 tEnabled:6 	M:1(3)5 14 15 16 17 19 20(2)21(6)	R:[5，1]:4 
+53)	loop:0	f:110	g:89	h:21	tFireFrom:6	Depth:52 tEnabled:1 7 	M:1(3)6 14 15 17 18 19 20(2)21(6)	R:[6，1]:3 
+54)	loop:0	f:110	g:89	h:21	tFireFrom:1	Depth:53 tEnabled:2 3 7 	M:1(2)2 6 14 15 17 19 20(2)21(6)	R:[2，1]:3 [6，1]:3 
+55)	loop:0	f:110	g:92	h:18	tFireFrom:7	Depth:54 tEnabled:2 3 8 	M:1(2)2 7 14 15 16 17 20(2)21(6)	R:[7，1]:5 
+56)	loop:0	f:110	g:92	h:18	tFireFrom:3	Depth:55 tEnabled:1 4 8 	M:1(2)4 7 15 16 17 18 20(2)21(6)	R:[4，1]:4 [7，1]:5 
+57)	loop:0	f:110	g:92	h:18	tFireFrom:1	Depth:56 tEnabled:2 8 	M:1 2 4 7 15 16 17 20(2)21(6)	R:[2，1]:3 [4，1]:4 [7，1]:5 
+58)	loop:0	f:110	g:95	h:15	tFireFrom:2	Depth:57 tEnabled:1 4 5 8 	M:1 3 4 7 16 17 18 20(2)21(6)	R:[3，1]:2 [4，1]:1 [7，1]:2 
+59)	loop:0	f:111	g:96	h:15	tFireFrom:4	Depth:58 tEnabled:6 8 	M:1 3 5 7 14 16 17 20(2)21(6)	R:[3，1]:1 [5，1]:4 [7，1]:1 
+60)	loop:0	f:112	g:97	h:15	tFireFrom:8	Depth:59 tEnabled:6 	M:1 3 5 14 16 17 19 20(3)21(6)	R:[5，1]:3 
+61)	loop:0	f:115	g:100	h:15	tFireFrom:6	Depth:60 tEnabled:1 5 7 	M:1 3 6 14 17 18 19 20(3)21(6)	R:[6，1]:3 
+62)	loop:0	f:115	g:100	h:15	tFireFrom:1	Depth:61 tEnabled:3 7 	M:2 3 6 14 17 19 20(3)21(6)	R:[2，1]:3 [6，1]:3 
+63)	loop:0	f:113	g:103	h:10	tFireFrom:7	Depth:62 tEnabled:3 8 	M:2 3 7 14 16 17 20(3)21(6)	R:[7，1]:5 
+64)	loop:0	f:113	g:103	h:10	tFireFrom:3	Depth:63 tEnabled:4 5 8 	M:3 4 7 16 17 18 20(3)21(6)	R:[4，1]:4 [7，1]:5 
+65)	loop:0	f:113	g:103	h:10	tFireFrom:5	Depth:64 tEnabled:6 8 	M:4 5 7 15 16 17 20(3)21(6)	R:[4，1]:4 [5，1]:4 [7，1]:5 
+66)	loop:0	f:117	g:107	h:10	tFireFrom:6	Depth:65 tEnabled:4 8 	M:4 6 7 15 17 18 20(3)21(6)	R:[6，1]:3 [7，1]:1 
+67)	loop:0	f:117	g:107	h:10	tFireFrom:4	Depth:66 tEnabled:8 	M:5 6 7 14 15 17 20(3)21(6)	R:[5，1]:4 [6，1]:3 [7，1]:1 
+68)	loop:0	f:118	g:108	h:10	tFireFrom:8	Depth:67 tEnabled:7 	M:5 6 14 15 17 19 20(4)21(6)	R:[5，1]:3 [6，1]:2 
+69)	loop:0	f:115	g:110	h:5	tFireFrom:7	Depth:68 tEnabled:6 8 	M:5 7 14 15 16 17 20(4)21(6)	R:[5，1]:1 [7，1]:5 
+70)	loop:0	f:116	g:111	h:5	tFireFrom:6	Depth:69 tEnabled:8 	M:6 7 14 15 17 18 20(4)21(6)	R:[6，1]:3 [7，1]:4 
+71)	loop:0	f:120	g:115	h:5	tFireFrom:8	Depth:70 tEnabled:7 	M:6 14 15 17 18 19 20(5)21(6)	R:
+72)	loop:0	f:120	g:115	h:5	tFireFrom:7	Depth:71 tEnabled:8 	M:7 14 15 16 17 18 20(5)21(6)	R:[7，1]:5 
+73)	loop:0	f:120	g:120	h:0	tFireFrom:8	Depth:72 tEnabled:	M:14 15 16 17 18 19 20(6)21(6)	R:
+=============================================================
+=======================End of a run==========================
+
+
+
+
+=====================Start of a run# 5=======================
+Date & time: 2022/10/26 星期三 20:12:08
+Petri net=ChenFig566, h=7, Open size=0, h2=2
+ep(for A^*_ep)=0.5, ep2(for h dynamic weighting)=0.5
+---------------------------------------------------------------
+Run #:5
+Makespan:119
+Newly expanded markings #:371
+Total expanded markings #:466
+This run time：0.400 seconds   (i.e., hours=0, minutes=0, seconds=0, milliseconds=400)
+Total time：1.258 seconds   (i.e., hours=0, minutes=0, seconds=1, milliseconds=258)
+===============================================================
+************* The best schedule found so far： ***********
+
+Node list:
+1)	loop:0	f:0	g:0	h:0	tFireFrom:1	Depth:0 tEnabled:1 9 	M:1(6)8(6)14 15 16 17 18 19 	R:
+2)	loop:0	f:96	g:0	h:96	tFireFrom:9	Depth:1 tEnabled:1 10 	M:1(6)8(5)9 14 15 16 17 18 	R:[9，1]:2 
+3)	loop:0	f:96	g:0	h:96	tFireFrom:1	Depth:2 tEnabled:2 3 10 	M:1(5)2 8(5)9 14 15 16 17 	R:[2，1]:3 [9，1]:2 
+4)	loop:0	f:96	g:2	h:94	tFireFrom:10	Depth:3 tEnabled:2 3 9 	M:1(5)2 8(5)10 14 15 16 19 	R:[2，1]:1 [10，1]:4 
+5)	loop:0	f:96	g:2	h:94	tFireFrom:9	Depth:4 tEnabled:2 3 	M:1(5)2 8(4)9 10 14 15 16 	R:[2，1]:1 [9，1]:2 [10，1]:4 
+6)	loop:0	f:96	g:3	h:93	tFireFrom:3	Depth:5 tEnabled:1 4 11 	M:1(5)4 8(4)9 10 15 16 18 	R:[4，1]:4 [9，1]:1 [10，1]:3 
+7)	loop:0	f:96	g:3	h:93	tFireFrom:1	Depth:6 tEnabled:2 	M:1(4)2 4 8(4)9 10 15 16 	R:[2，1]:3 [4，1]:4 [9，1]:1 [10，1]:3 
+8)	loop:0	f:96	g:6	h:90	tFireFrom:2	Depth:7 tEnabled:1 4 5 11 	M:1(4)3 4 8(4)9 10 16 18 	R:[3，1]:2 [4，1]:1 
+9)	loop:0	f:98	g:8	h:90	tFireFrom:5	Depth:8 tEnabled:6 	M:1(4)4 5 8(4)9 10 15 16 	R:[5，1]:4 
+10)	loop:0	f:98	g:12	h:86	tFireFrom:6	Depth:9 tEnabled:1 4 11 	M:1(4)4 6 8(4)9 10 15 18 	R:[6，1]:3 
+11)	loop:0	f:98	g:12	h:86	tFireFrom:11	Depth:10 tEnabled:10 12 	M:1(4)4 6 8(4)9 11 15 17 	R:[6，1]:3 [11，1]:4 
+12)	loop:0	f:98	g:16	h:82	tFireFrom:12	Depth:11 tEnabled:1 4 10 13 	M:1(4)4 6 8(4)9 12 17 18 	R:[12，1]:3 
+13)	loop:0	f:98	g:16	h:82	tFireFrom:10	Depth:12 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(4)10 12 18 19 	R:[10，1]:4 [12，1]:3 
+14)	loop:0	f:98	g:16	h:82	tFireFrom:9	Depth:13 tEnabled:1 4 11 13 	M:1(4)4 6 8(3)9 10 12 18 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+15)	loop:0	f:101	g:19	h:82	tFireFrom:13	Depth:14 tEnabled:14 	M:1(4)4 6 8(3)9 10 13 15 	R:[10，1]:1 [13，1]:5 
+16)	loop:0	f:101	g:24	h:77	tFireFrom:14	Depth:15 tEnabled:1 4 11 	M:1(4)4 6 8(3)9 10 15 18 21 	R:
+17)	loop:0	f:101	g:24	h:77	tFireFrom:11	Depth:16 tEnabled:10 12 	M:1(4)4 6 8(3)9 11 15 17 21 	R:[11，1]:4 
+18)	loop:0	f:101	g:28	h:73	tFireFrom:12	Depth:17 tEnabled:1 4 10 13 	M:1(4)4 6 8(3)9 12 17 18 21 	R:[12，1]:3 
+19)	loop:0	f:101	g:28	h:73	tFireFrom:10	Depth:18 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(3)10 12 18 19 21 	R:[10，1]:4 [12，1]:3 
+20)	loop:0	f:101	g:28	h:73	tFireFrom:9	Depth:19 tEnabled:1 4 11 13 	M:1(4)4 6 8(2)9 10 12 18 21 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+21)	loop:0	f:104	g:31	h:73	tFireFrom:13	Depth:20 tEnabled:14 	M:1(4)4 6 8(2)9 10 13 15 21 	R:[10，1]:1 [13，1]:5 
+22)	loop:0	f:104	g:36	h:68	tFireFrom:14	Depth:21 tEnabled:1 4 11 	M:1(4)4 6 8(2)9 10 15 18 21(2)	R:
+23)	loop:0	f:104	g:36	h:68	tFireFrom:11	Depth:22 tEnabled:10 12 	M:1(4)4 6 8(2)9 11 15 17 21(2)	R:[11，1]:4 
+24)	loop:0	f:104	g:40	h:64	tFireFrom:12	Depth:23 tEnabled:1 4 10 13 	M:1(4)4 6 8(2)9 12 17 18 21(2)	R:[12，1]:3 
+25)	loop:0	f:104	g:40	h:64	tFireFrom:10	Depth:24 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(2)10 12 18 19 21(2)	R:[10，1]:4 [12，1]:3 
+26)	loop:0	f:104	g:40	h:64	tFireFrom:9	Depth:25 tEnabled:1 4 11 13 	M:1(4)4 6 8 9 10 12 18 21(2)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+27)	loop:0	f:107	g:43	h:64	tFireFrom:13	Depth:26 tEnabled:14 	M:1(4)4 6 8 9 10 13 15 21(2)	R:[10，1]:1 [13，1]:5 
+28)	loop:0	f:107	g:48	h:59	tFireFrom:14	Depth:27 tEnabled:1 4 11 	M:1(4)4 6 8 9 10 15 18 21(3)	R:
+29)	loop:0	f:107	g:48	h:59	tFireFrom:11	Depth:28 tEnabled:10 12 	M:1(4)4 6 8 9 11 15 17 21(3)	R:[11，1]:4 
+30)	loop:0	f:107	g:52	h:55	tFireFrom:12	Depth:29 tEnabled:1 4 10 13 	M:1(4)4 6 8 9 12 17 18 21(3)	R:[12，1]:3 
+31)	loop:0	f:107	g:52	h:55	tFireFrom:10	Depth:30 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8 10 12 18 19 21(3)	R:[10，1]:4 [12，1]:3 
+32)	loop:0	f:107	g:52	h:55	tFireFrom:9	Depth:31 tEnabled:1 4 11 13 	M:1(4)4 6 9 10 12 18 21(3)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+33)	loop:0	f:110	g:55	h:55	tFireFrom:13	Depth:32 tEnabled:14 	M:1(4)4 6 9 10 13 15 21(3)	R:[10，1]:1 [13，1]:5 
+34)	loop:0	f:110	g:60	h:50	tFireFrom:14	Depth:33 tEnabled:1 4 11 	M:1(4)4 6 9 10 15 18 21(4)	R:
+35)	loop:0	f:110	g:60	h:50	tFireFrom:11	Depth:34 tEnabled:10 12 	M:1(4)4 6 9 11 15 17 21(4)	R:[11，1]:4 
+36)	loop:0	f:110	g:64	h:46	tFireFrom:12	Depth:35 tEnabled:1 4 10 13 	M:1(4)4 6 9 12 17 18 21(4)	R:[12，1]:3 
+37)	loop:0	f:110	g:64	h:46	tFireFrom:10	Depth:36 tEnabled:1 4 7 11 13 	M:1(4)4 6 10 12 18 19 21(4)	R:[10，1]:4 [12，1]:3 
+38)	loop:0	f:110	g:64	h:46	tFireFrom:7	Depth:37 tEnabled:1 4 8 11 13 	M:1(4)4 7 10 12 16 18 21(4)	R:[7，1]:5 [10，1]:4 [12，1]:3 
+39)	loop:0	f:110	g:64	h:46	tFireFrom:4	Depth:38 tEnabled:6 8 	M:1(4)5 7 10 12 14 16 21(4)	R:[5，1]:4 [7，1]:5 [10，1]:4 [12，1]:3 
+40)	loop:0	f:110	g:68	h:42	tFireFrom:6	Depth:39 tEnabled:1 8 11 13 	M:1(4)6 7 10 12 14 18 21(4)	R:[6，1]:3 [7，1]:1 
+41)	loop:0	f:110	g:68	h:42	tFireFrom:13	Depth:40 tEnabled:8 14 	M:1(4)6 7 10 13 14 15 21(4)	R:[6，1]:3 [7，1]:1 [13，1]:5 
+42)	loop:0	f:110	g:73	h:37	tFireFrom:14	Depth:41 tEnabled:1 8 11 	M:1(4)6 7 10 14 15 18 21(5)	R:
+43)	loop:0	f:110	g:73	h:37	tFireFrom:11	Depth:42 tEnabled:8 12 	M:1(4)6 7 11 14 15 17 21(5)	R:[11，1]:4 
+44)	loop:0	f:110	g:77	h:33	tFireFrom:12	Depth:43 tEnabled:1 8 13 	M:1(4)6 7 12 14 17 18 21(5)	R:[12，1]:3 
+45)	loop:0	f:110	g:77	h:33	tFireFrom:8	Depth:44 tEnabled:1 7 13 	M:1(4)6 12 14 17 18 19 20 21(5)	R:[12，1]:3 
+46)	loop:0	f:110	g:77	h:33	tFireFrom:7	Depth:45 tEnabled:1 8 13 	M:1(4)7 12 14 16 17 18 20 21(5)	R:[7，1]:5 [12，1]:3 
+47)	loop:0	f:110	g:77	h:33	tFireFrom:1	Depth:46 tEnabled:3 8 	M:1(3)2 7 12 14 16 17 20 21(5)	R:[2，1]:3 [7，1]:5 [12，1]:3 
+48)	loop:0	f:110	g:80	h:30	tFireFrom:3	Depth:47 tEnabled:1 4 8 13 	M:1(3)4 7 12 16 17 18 20 21(5)	R:[4，1]:4 [7，1]:2 
+49)	loop:0	f:110	g:80	h:30	tFireFrom:13	Depth:48 tEnabled:8 14 	M:1(3)4 7 13 15 16 17 20 21(5)	R:[4，1]:4 [7，1]:2 [13，1]:5 
+50)	loop:0	f:110	g:85	h:25	tFireFrom:14	Depth:49 tEnabled:1 4 8 	M:1(3)4 7 15 16 17 18 20 21(6)	R:
+51)	loop:0	f:110	g:85	h:25	tFireFrom:8	Depth:50 tEnabled:1 4 	M:1(3)4 15 16 17 18 19 20(2)21(6)	R:
+52)	loop:0	f:110	g:85	h:25	tFireFrom:4	Depth:51 tEnabled:6 	M:1(3)5 14 15 16 17 19 20(2)21(6)	R:[5，1]:4 
+53)	loop:0	f:110	g:89	h:21	tFireFrom:6	Depth:52 tEnabled:1 7 	M:1(3)6 14 15 17 18 19 20(2)21(6)	R:[6，1]:3 
+54)	loop:0	f:110	g:89	h:21	tFireFrom:1	Depth:53 tEnabled:2 3 7 	M:1(2)2 6 14 15 17 19 20(2)21(6)	R:[2，1]:3 [6，1]:3 
+55)	loop:0	f:110	g:92	h:18	tFireFrom:7	Depth:54 tEnabled:2 3 8 	M:1(2)2 7 14 15 16 17 20(2)21(6)	R:[7，1]:5 
+56)	loop:0	f:110	g:92	h:18	tFireFrom:2	Depth:55 tEnabled:1 5 8 	M:1(2)3 7 14 16 17 18 20(2)21(6)	R:[3，1]:2 [7，1]:5 
+57)	loop:0	f:110	g:92	h:18	tFireFrom:1	Depth:56 tEnabled:3 8 	M:1 2 3 7 14 16 17 20(2)21(6)	R:[2，1]:3 [3，1]:2 [7，1]:5 
+58)	loop:0	f:110	g:95	h:15	tFireFrom:3	Depth:57 tEnabled:1 4 5 8 	M:1 3 4 7 16 17 18 20(2)21(6)	R:[4，1]:4 [7，1]:2 
+59)	loop:0	f:110	g:95	h:15	tFireFrom:5	Depth:58 tEnabled:6 8 	M:1 4 5 7 15 16 17 20(2)21(6)	R:[4，1]:4 [5，1]:4 [7，1]:2 
+60)	loop:0	f:112	g:97	h:15	tFireFrom:8	Depth:59 tEnabled:6 	M:1 4 5 15 16 17 19 20(3)21(6)	R:[4，1]:2 [5，1]:2 
+61)	loop:0	f:114	g:99	h:15	tFireFrom:6	Depth:60 tEnabled:1 4 7 	M:1 4 6 15 17 18 19 20(3)21(6)	R:[6，1]:3 
+62)	loop:0	f:114	g:99	h:15	tFireFrom:1	Depth:61 tEnabled:2 7 	M:2 4 6 15 17 19 20(3)21(6)	R:[2，1]:3 [6，1]:3 
+63)	loop:0	f:112	g:102	h:10	tFireFrom:7	Depth:62 tEnabled:2 8 	M:2 4 7 15 16 17 20(3)21(6)	R:[7，1]:5 
+64)	loop:0	f:112	g:102	h:10	tFireFrom:2	Depth:63 tEnabled:4 5 8 	M:3 4 7 16 17 18 20(3)21(6)	R:[3，1]:2 [7，1]:5 
+65)	loop:0	f:112	g:102	h:10	tFireFrom:4	Depth:64 tEnabled:6 8 	M:3 5 7 14 16 17 20(3)21(6)	R:[3，1]:2 [5，1]:4 [7，1]:5 
+66)	loop:0	f:116	g:106	h:10	tFireFrom:6	Depth:65 tEnabled:5 8 	M:3 6 7 14 17 18 20(3)21(6)	R:[6，1]:3 [7，1]:1 
+67)	loop:0	f:116	g:106	h:10	tFireFrom:5	Depth:66 tEnabled:8 	M:5 6 7 14 15 17 20(3)21(6)	R:[5，1]:4 [6，1]:3 [7，1]:1 
+68)	loop:0	f:117	g:107	h:10	tFireFrom:8	Depth:67 tEnabled:7 	M:5 6 14 15 17 19 20(4)21(6)	R:[5，1]:3 [6，1]:2 
+69)	loop:0	f:114	g:109	h:5	tFireFrom:7	Depth:68 tEnabled:6 8 	M:5 7 14 15 16 17 20(4)21(6)	R:[5，1]:1 [7，1]:5 
+70)	loop:0	f:115	g:110	h:5	tFireFrom:6	Depth:69 tEnabled:8 	M:6 7 14 15 17 18 20(4)21(6)	R:[6，1]:3 [7，1]:4 
+71)	loop:0	f:119	g:114	h:5	tFireFrom:8	Depth:70 tEnabled:7 	M:6 14 15 17 18 19 20(5)21(6)	R:
+72)	loop:0	f:119	g:114	h:5	tFireFrom:7	Depth:71 tEnabled:8 	M:7 14 15 16 17 18 20(5)21(6)	R:[7，1]:5 
+73)	loop:0	f:119	g:119	h:0	tFireFrom:8	Depth:72 tEnabled:	M:14 15 16 17 18 19 20(6)21(6)	R:
+=============================================================
+=======================End of a run==========================
+
+
+
+
+=====================Start of a run# 6=======================
+Date & time: 2022/10/26 星期三 20:12:11
+Petri net=ChenFig566, h=7, Open size=0, h2=2
+ep(for A^*_ep)=0.5, ep2(for h dynamic weighting)=0.5
+---------------------------------------------------------------
+Run #:6
+Makespan:118
+Newly expanded markings #:1929
+Total expanded markings #:2300
+This run time：3.7 seconds   (i.e., hours=0, minutes=0, seconds=3, milliseconds=7)
+Total time：4.265 seconds   (i.e., hours=0, minutes=0, seconds=4, milliseconds=265)
+===============================================================
+************* The best schedule found so far： ***********
+
+Node list:
+1)	loop:0	f:0	g:0	h:0	tFireFrom:1	Depth:0 tEnabled:1 9 	M:1(6)8(6)14 15 16 17 18 19 	R:
+2)	loop:0	f:96	g:0	h:96	tFireFrom:9	Depth:1 tEnabled:1 10 	M:1(6)8(5)9 14 15 16 17 18 	R:[9，1]:2 
+3)	loop:0	f:96	g:0	h:96	tFireFrom:1	Depth:2 tEnabled:2 3 10 	M:1(5)2 8(5)9 14 15 16 17 	R:[2，1]:3 [9，1]:2 
+4)	loop:0	f:96	g:2	h:94	tFireFrom:10	Depth:3 tEnabled:2 3 9 	M:1(5)2 8(5)10 14 15 16 19 	R:[2，1]:1 [10，1]:4 
+5)	loop:0	f:96	g:2	h:94	tFireFrom:9	Depth:4 tEnabled:2 3 	M:1(5)2 8(4)9 10 14 15 16 	R:[2，1]:1 [9，1]:2 [10，1]:4 
+6)	loop:0	f:96	g:3	h:93	tFireFrom:3	Depth:5 tEnabled:1 4 11 	M:1(5)4 8(4)9 10 15 16 18 	R:[4，1]:4 [9，1]:1 [10，1]:3 
+7)	loop:0	f:96	g:3	h:93	tFireFrom:1	Depth:6 tEnabled:2 	M:1(4)2 4 8(4)9 10 15 16 	R:[2，1]:3 [4，1]:4 [9，1]:1 [10，1]:3 
+8)	loop:0	f:96	g:6	h:90	tFireFrom:2	Depth:7 tEnabled:1 4 5 11 	M:1(4)3 4 8(4)9 10 16 18 	R:[3，1]:2 [4，1]:1 
+9)	loop:0	f:98	g:8	h:90	tFireFrom:5	Depth:8 tEnabled:6 	M:1(4)4 5 8(4)9 10 15 16 	R:[5，1]:4 
+10)	loop:0	f:98	g:12	h:86	tFireFrom:6	Depth:9 tEnabled:1 4 11 	M:1(4)4 6 8(4)9 10 15 18 	R:[6，1]:3 
+11)	loop:0	f:98	g:12	h:86	tFireFrom:11	Depth:10 tEnabled:10 12 	M:1(4)4 6 8(4)9 11 15 17 	R:[6，1]:3 [11，1]:4 
+12)	loop:0	f:98	g:16	h:82	tFireFrom:12	Depth:11 tEnabled:1 4 10 13 	M:1(4)4 6 8(4)9 12 17 18 	R:[12，1]:3 
+13)	loop:0	f:98	g:16	h:82	tFireFrom:10	Depth:12 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(4)10 12 18 19 	R:[10，1]:4 [12，1]:3 
+14)	loop:0	f:98	g:16	h:82	tFireFrom:9	Depth:13 tEnabled:1 4 11 13 	M:1(4)4 6 8(3)9 10 12 18 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+15)	loop:0	f:101	g:19	h:82	tFireFrom:13	Depth:14 tEnabled:14 	M:1(4)4 6 8(3)9 10 13 15 	R:[10，1]:1 [13，1]:5 
+16)	loop:0	f:101	g:24	h:77	tFireFrom:14	Depth:15 tEnabled:1 4 11 	M:1(4)4 6 8(3)9 10 15 18 21 	R:
+17)	loop:0	f:101	g:24	h:77	tFireFrom:11	Depth:16 tEnabled:10 12 	M:1(4)4 6 8(3)9 11 15 17 21 	R:[11，1]:4 
+18)	loop:0	f:101	g:28	h:73	tFireFrom:12	Depth:17 tEnabled:1 4 10 13 	M:1(4)4 6 8(3)9 12 17 18 21 	R:[12，1]:3 
+19)	loop:0	f:101	g:28	h:73	tFireFrom:10	Depth:18 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(3)10 12 18 19 21 	R:[10，1]:4 [12，1]:3 
+20)	loop:0	f:101	g:28	h:73	tFireFrom:9	Depth:19 tEnabled:1 4 11 13 	M:1(4)4 6 8(2)9 10 12 18 21 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+21)	loop:0	f:104	g:31	h:73	tFireFrom:13	Depth:20 tEnabled:14 	M:1(4)4 6 8(2)9 10 13 15 21 	R:[10，1]:1 [13，1]:5 
+22)	loop:0	f:104	g:36	h:68	tFireFrom:14	Depth:21 tEnabled:1 4 11 	M:1(4)4 6 8(2)9 10 15 18 21(2)	R:
+23)	loop:0	f:104	g:36	h:68	tFireFrom:11	Depth:22 tEnabled:10 12 	M:1(4)4 6 8(2)9 11 15 17 21(2)	R:[11，1]:4 
+24)	loop:0	f:104	g:40	h:64	tFireFrom:12	Depth:23 tEnabled:1 4 10 13 	M:1(4)4 6 8(2)9 12 17 18 21(2)	R:[12，1]:3 
+25)	loop:0	f:104	g:40	h:64	tFireFrom:10	Depth:24 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(2)10 12 18 19 21(2)	R:[10，1]:4 [12，1]:3 
+26)	loop:0	f:104	g:40	h:64	tFireFrom:9	Depth:25 tEnabled:1 4 11 13 	M:1(4)4 6 8 9 10 12 18 21(2)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+27)	loop:0	f:107	g:43	h:64	tFireFrom:13	Depth:26 tEnabled:14 	M:1(4)4 6 8 9 10 13 15 21(2)	R:[10，1]:1 [13，1]:5 
+28)	loop:0	f:107	g:48	h:59	tFireFrom:14	Depth:27 tEnabled:1 4 11 	M:1(4)4 6 8 9 10 15 18 21(3)	R:
+29)	loop:0	f:107	g:48	h:59	tFireFrom:11	Depth:28 tEnabled:10 12 	M:1(4)4 6 8 9 11 15 17 21(3)	R:[11，1]:4 
+30)	loop:0	f:107	g:52	h:55	tFireFrom:12	Depth:29 tEnabled:1 4 10 13 	M:1(4)4 6 8 9 12 17 18 21(3)	R:[12，1]:3 
+31)	loop:0	f:107	g:52	h:55	tFireFrom:10	Depth:30 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8 10 12 18 19 21(3)	R:[10，1]:4 [12，1]:3 
+32)	loop:0	f:107	g:52	h:55	tFireFrom:9	Depth:31 tEnabled:1 4 11 13 	M:1(4)4 6 9 10 12 18 21(3)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+33)	loop:0	f:110	g:55	h:55	tFireFrom:13	Depth:32 tEnabled:14 	M:1(4)4 6 9 10 13 15 21(3)	R:[10，1]:1 [13，1]:5 
+34)	loop:0	f:110	g:60	h:50	tFireFrom:14	Depth:33 tEnabled:1 4 11 	M:1(4)4 6 9 10 15 18 21(4)	R:
+35)	loop:0	f:110	g:60	h:50	tFireFrom:11	Depth:34 tEnabled:10 12 	M:1(4)4 6 9 11 15 17 21(4)	R:[11，1]:4 
+36)	loop:0	f:110	g:64	h:46	tFireFrom:12	Depth:35 tEnabled:1 4 10 13 	M:1(4)4 6 9 12 17 18 21(4)	R:[12，1]:3 
+37)	loop:0	f:110	g:64	h:46	tFireFrom:10	Depth:36 tEnabled:1 4 7 11 13 	M:1(4)4 6 10 12 18 19 21(4)	R:[10，1]:4 [12，1]:3 
+38)	loop:0	f:110	g:64	h:46	tFireFrom:7	Depth:37 tEnabled:1 4 8 11 13 	M:1(4)4 7 10 12 16 18 21(4)	R:[7，1]:5 [10，1]:4 [12，1]:3 
+39)	loop:0	f:110	g:64	h:46	tFireFrom:4	Depth:38 tEnabled:6 8 	M:1(4)5 7 10 12 14 16 21(4)	R:[5，1]:4 [7，1]:5 [10，1]:4 [12，1]:3 
+40)	loop:0	f:110	g:68	h:42	tFireFrom:6	Depth:39 tEnabled:1 8 11 13 	M:1(4)6 7 10 12 14 18 21(4)	R:[6，1]:3 [7，1]:1 
+41)	loop:0	f:110	g:68	h:42	tFireFrom:13	Depth:40 tEnabled:8 14 	M:1(4)6 7 10 13 14 15 21(4)	R:[6，1]:3 [7，1]:1 [13，1]:5 
+42)	loop:0	f:110	g:73	h:37	tFireFrom:14	Depth:41 tEnabled:1 8 11 	M:1(4)6 7 10 14 15 18 21(5)	R:
+43)	loop:0	f:110	g:73	h:37	tFireFrom:8	Depth:42 tEnabled:1 7 11 	M:1(4)6 10 14 15 18 19 20 21(5)	R:
+44)	loop:0	f:110	g:73	h:37	tFireFrom:7	Depth:43 tEnabled:1 8 11 	M:1(4)7 10 14 15 16 18 20 21(5)	R:[7，1]:5 
+45)	loop:0	f:110	g:73	h:37	tFireFrom:1	Depth:44 tEnabled:2 3 8 	M:1(3)2 7 10 14 15 16 20 21(5)	R:[2，1]:3 [7，1]:5 
+46)	loop:0	f:110	g:76	h:34	tFireFrom:3	Depth:45 tEnabled:1 4 8 11 	M:1(3)4 7 10 15 16 18 20 21(5)	R:[4，1]:4 [7，1]:2 
+47)	loop:0	f:110	g:76	h:34	tFireFrom:1	Depth:46 tEnabled:2 8 	M:1(2)2 4 7 10 15 16 20 21(5)	R:[2，1]:3 [4，1]:4 [7，1]:2 
+48)	loop:0	f:110	g:78	h:32	tFireFrom:8	Depth:47 tEnabled:2 	M:1(2)2 4 10 15 16 19 20(2)21(5)	R:[2，1]:1 [4，1]:2 
+49)	loop:0	f:110	g:79	h:31	tFireFrom:2	Depth:48 tEnabled:1 4 5 11 	M:1(2)3 4 10 16 18 19 20(2)21(5)	R:[3，1]:2 [4，1]:1 
+50)	loop:0	f:111	g:80	h:31	tFireFrom:4	Depth:49 tEnabled:6 	M:1(2)3 5 10 14 16 19 20(2)21(5)	R:[3，1]:1 [5，1]:4 
+51)	loop:0	f:111	g:84	h:27	tFireFrom:6	Depth:50 tEnabled:1 5 7 11 	M:1(2)3 6 10 14 18 19 20(2)21(5)	R:[6，1]:3 
+52)	loop:0	f:111	g:84	h:27	tFireFrom:5	Depth:51 tEnabled:7 	M:1(2)5 6 10 14 15 19 20(2)21(5)	R:[5，1]:4 [6，1]:3 
+53)	loop:0	f:111	g:87	h:24	tFireFrom:7	Depth:52 tEnabled:6 8 	M:1(2)5 7 10 14 15 16 20(2)21(5)	R:[5，1]:1 [7，1]:5 
+54)	loop:0	f:111	g:88	h:23	tFireFrom:6	Depth:53 tEnabled:1 8 11 	M:1(2)6 7 10 14 15 18 20(2)21(5)	R:[6，1]:3 [7，1]:4 
+55)	loop:0	f:111	g:88	h:23	tFireFrom:1	Depth:54 tEnabled:2 3 8 	M:1 2 6 7 10 14 15 20(2)21(5)	R:[2，1]:3 [6，1]:3 [7，1]:4 
+56)	loop:0	f:111	g:91	h:20	tFireFrom:3	Depth:55 tEnabled:1 4 8 11 	M:1 4 6 7 10 15 18 20(2)21(5)	R:[4，1]:4 [7，1]:1 
+57)	loop:0	f:111	g:91	h:20	tFireFrom:11	Depth:56 tEnabled:8 12 	M:1 4 6 7 11 15 17 20(2)21(5)	R:[4，1]:4 [7，1]:1 [11，1]:4 
+58)	loop:0	f:111	g:95	h:16	tFireFrom:12	Depth:57 tEnabled:1 4 8 13 	M:1 4 6 7 12 17 18 20(2)21(5)	R:[12，1]:3 
+59)	loop:0	f:111	g:95	h:16	tFireFrom:8	Depth:58 tEnabled:1 4 7 13 	M:1 4 6 12 17 18 19 20(3)21(5)	R:[12，1]:3 
+60)	loop:0	f:111	g:95	h:16	tFireFrom:7	Depth:59 tEnabled:1 4 8 13 	M:1 4 7 12 16 17 18 20(3)21(5)	R:[7，1]:5 [12，1]:3 
+61)	loop:0	f:111	g:95	h:16	tFireFrom:4	Depth:60 tEnabled:6 8 	M:1 5 7 12 14 16 17 20(3)21(5)	R:[5，1]:4 [7，1]:5 [12，1]:3 
+62)	loop:0	f:111	g:99	h:12	tFireFrom:6	Depth:61 tEnabled:1 8 13 	M:1 6 7 12 14 17 18 20(3)21(5)	R:[6，1]:3 [7，1]:1 
+63)	loop:0	f:111	g:99	h:12	tFireFrom:1	Depth:62 tEnabled:3 8 	M:2 6 7 12 14 17 20(3)21(5)	R:[2，1]:3 [6，1]:3 [7，1]:1 
+64)	loop:0	f:111	g:100	h:11	tFireFrom:8	Depth:63 tEnabled:3 7 	M:2 6 12 14 17 19 20(4)21(5)	R:[2，1]:2 [6，1]:2 
+65)	loop:0	f:111	g:102	h:9	tFireFrom:7	Depth:64 tEnabled:3 8 	M:2 7 12 14 16 17 20(4)21(5)	R:[7，1]:5 
+66)	loop:0	f:111	g:102	h:9	tFireFrom:3	Depth:65 tEnabled:4 8 13 	M:4 7 12 16 17 18 20(4)21(5)	R:[4，1]:4 [7，1]:5 
+67)	loop:0	f:115	g:106	h:9	tFireFrom:4	Depth:66 tEnabled:6 8 	M:5 7 12 14 16 17 20(4)21(5)	R:[5，1]:4 [7，1]:1 
+68)	loop:0	f:115	g:107	h:8	tFireFrom:8	Depth:67 tEnabled:6 	M:5 12 14 16 17 19 20(5)21(5)	R:[5，1]:3 
+69)	loop:0	f:115	g:110	h:5	tFireFrom:6	Depth:68 tEnabled:7 13 	M:6 12 14 17 18 19 20(5)21(5)	R:[6，1]:3 
+70)	loop:0	f:115	g:110	h:5	tFireFrom:13	Depth:69 tEnabled:7 14 	M:6 13 14 15 17 19 20(5)21(5)	R:[6，1]:3 [13，1]:5 
+71)	loop:0	f:118	g:113	h:5	tFireFrom:7	Depth:70 tEnabled:8 14 	M:7 13 14 15 16 17 20(5)21(5)	R:[7，1]:5 [13，1]:2 
+72)	loop:0	f:118	g:115	h:3	tFireFrom:14	Depth:71 tEnabled:8 	M:7 14 15 16 17 18 20(5)21(6)	R:[7，1]:3 
+73)	loop:0	f:118	g:118	h:0	tFireFrom:8	Depth:72 tEnabled:	M:14 15 16 17 18 19 20(6)21(6)	R:
+=============================================================
+=======================End of a run==========================
+
+
+
+
+=====================Start of a run# 7=======================
+Date & time: 2022/10/26 星期三 20:12:11
+Petri net=ChenFig566, h=7, Open size=0, h2=2
+ep(for A^*_ep)=0.5, ep2(for h dynamic weighting)=0.5
+---------------------------------------------------------------
+Run #:7
+Makespan:115
+Newly expanded markings #:511
+Total expanded markings #:2440
+This run time：0.323 seconds   (i.e., hours=0, minutes=0, seconds=0, milliseconds=323)
+Total time：4.588 seconds   (i.e., hours=0, minutes=0, seconds=4, milliseconds=588)
+===============================================================
+************* The best schedule found so far： ***********
+
+Node list:
+1)	loop:0	f:0	g:0	h:0	tFireFrom:1	Depth:0 tEnabled:1 9 	M:1(6)8(6)14 15 16 17 18 19 	R:
+2)	loop:0	f:96	g:0	h:96	tFireFrom:9	Depth:1 tEnabled:1 10 	M:1(6)8(5)9 14 15 16 17 18 	R:[9，1]:2 
+3)	loop:0	f:96	g:0	h:96	tFireFrom:1	Depth:2 tEnabled:2 3 10 	M:1(5)2 8(5)9 14 15 16 17 	R:[2，1]:3 [9，1]:2 
+4)	loop:0	f:96	g:2	h:94	tFireFrom:10	Depth:3 tEnabled:2 3 9 	M:1(5)2 8(5)10 14 15 16 19 	R:[2，1]:1 [10，1]:4 
+5)	loop:0	f:96	g:2	h:94	tFireFrom:9	Depth:4 tEnabled:2 3 	M:1(5)2 8(4)9 10 14 15 16 	R:[2，1]:1 [9，1]:2 [10，1]:4 
+6)	loop:0	f:96	g:3	h:93	tFireFrom:3	Depth:5 tEnabled:1 4 11 	M:1(5)4 8(4)9 10 15 16 18 	R:[4，1]:4 [9，1]:1 [10，1]:3 
+7)	loop:0	f:96	g:3	h:93	tFireFrom:1	Depth:6 tEnabled:2 	M:1(4)2 4 8(4)9 10 15 16 	R:[2，1]:3 [4，1]:4 [9，1]:1 [10，1]:3 
+8)	loop:0	f:96	g:6	h:90	tFireFrom:2	Depth:7 tEnabled:1 4 5 11 	M:1(4)3 4 8(4)9 10 16 18 	R:[3，1]:2 [4，1]:1 
+9)	loop:0	f:98	g:8	h:90	tFireFrom:5	Depth:8 tEnabled:6 	M:1(4)4 5 8(4)9 10 15 16 	R:[5，1]:4 
+10)	loop:0	f:98	g:12	h:86	tFireFrom:6	Depth:9 tEnabled:1 4 11 	M:1(4)4 6 8(4)9 10 15 18 	R:[6，1]:3 
+11)	loop:0	f:98	g:12	h:86	tFireFrom:11	Depth:10 tEnabled:10 12 	M:1(4)4 6 8(4)9 11 15 17 	R:[6，1]:3 [11，1]:4 
+12)	loop:0	f:98	g:16	h:82	tFireFrom:12	Depth:11 tEnabled:1 4 10 13 	M:1(4)4 6 8(4)9 12 17 18 	R:[12，1]:3 
+13)	loop:0	f:98	g:16	h:82	tFireFrom:10	Depth:12 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(4)10 12 18 19 	R:[10，1]:4 [12，1]:3 
+14)	loop:0	f:98	g:16	h:82	tFireFrom:9	Depth:13 tEnabled:1 4 11 13 	M:1(4)4 6 8(3)9 10 12 18 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+15)	loop:0	f:101	g:19	h:82	tFireFrom:13	Depth:14 tEnabled:14 	M:1(4)4 6 8(3)9 10 13 15 	R:[10，1]:1 [13，1]:5 
+16)	loop:0	f:101	g:24	h:77	tFireFrom:14	Depth:15 tEnabled:1 4 11 	M:1(4)4 6 8(3)9 10 15 18 21 	R:
+17)	loop:0	f:101	g:24	h:77	tFireFrom:11	Depth:16 tEnabled:10 12 	M:1(4)4 6 8(3)9 11 15 17 21 	R:[11，1]:4 
+18)	loop:0	f:101	g:28	h:73	tFireFrom:12	Depth:17 tEnabled:1 4 10 13 	M:1(4)4 6 8(3)9 12 17 18 21 	R:[12，1]:3 
+19)	loop:0	f:101	g:28	h:73	tFireFrom:10	Depth:18 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(3)10 12 18 19 21 	R:[10，1]:4 [12，1]:3 
+20)	loop:0	f:101	g:28	h:73	tFireFrom:9	Depth:19 tEnabled:1 4 11 13 	M:1(4)4 6 8(2)9 10 12 18 21 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+21)	loop:0	f:104	g:31	h:73	tFireFrom:13	Depth:20 tEnabled:14 	M:1(4)4 6 8(2)9 10 13 15 21 	R:[10，1]:1 [13，1]:5 
+22)	loop:0	f:104	g:36	h:68	tFireFrom:14	Depth:21 tEnabled:1 4 11 	M:1(4)4 6 8(2)9 10 15 18 21(2)	R:
+23)	loop:0	f:104	g:36	h:68	tFireFrom:11	Depth:22 tEnabled:10 12 	M:1(4)4 6 8(2)9 11 15 17 21(2)	R:[11，1]:4 
+24)	loop:0	f:104	g:40	h:64	tFireFrom:12	Depth:23 tEnabled:1 4 10 13 	M:1(4)4 6 8(2)9 12 17 18 21(2)	R:[12，1]:3 
+25)	loop:0	f:104	g:40	h:64	tFireFrom:10	Depth:24 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(2)10 12 18 19 21(2)	R:[10，1]:4 [12，1]:3 
+26)	loop:0	f:104	g:40	h:64	tFireFrom:9	Depth:25 tEnabled:1 4 11 13 	M:1(4)4 6 8 9 10 12 18 21(2)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+27)	loop:0	f:107	g:43	h:64	tFireFrom:13	Depth:26 tEnabled:14 	M:1(4)4 6 8 9 10 13 15 21(2)	R:[10，1]:1 [13，1]:5 
+28)	loop:0	f:107	g:48	h:59	tFireFrom:14	Depth:27 tEnabled:1 4 11 	M:1(4)4 6 8 9 10 15 18 21(3)	R:
+29)	loop:0	f:107	g:48	h:59	tFireFrom:11	Depth:28 tEnabled:10 12 	M:1(4)4 6 8 9 11 15 17 21(3)	R:[11，1]:4 
+30)	loop:0	f:107	g:52	h:55	tFireFrom:12	Depth:29 tEnabled:1 4 10 13 	M:1(4)4 6 8 9 12 17 18 21(3)	R:[12，1]:3 
+31)	loop:0	f:107	g:52	h:55	tFireFrom:10	Depth:30 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8 10 12 18 19 21(3)	R:[10，1]:4 [12，1]:3 
+32)	loop:0	f:107	g:52	h:55	tFireFrom:9	Depth:31 tEnabled:1 4 11 13 	M:1(4)4 6 9 10 12 18 21(3)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+33)	loop:0	f:110	g:55	h:55	tFireFrom:13	Depth:32 tEnabled:14 	M:1(4)4 6 9 10 13 15 21(3)	R:[10，1]:1 [13，1]:5 
+34)	loop:0	f:110	g:60	h:50	tFireFrom:14	Depth:33 tEnabled:1 4 11 	M:1(4)4 6 9 10 15 18 21(4)	R:
+35)	loop:0	f:110	g:60	h:50	tFireFrom:11	Depth:34 tEnabled:10 12 	M:1(4)4 6 9 11 15 17 21(4)	R:[11，1]:4 
+36)	loop:0	f:110	g:64	h:46	tFireFrom:12	Depth:35 tEnabled:1 4 10 13 	M:1(4)4 6 9 12 17 18 21(4)	R:[12，1]:3 
+37)	loop:0	f:110	g:64	h:46	tFireFrom:10	Depth:36 tEnabled:1 4 7 11 13 	M:1(4)4 6 10 12 18 19 21(4)	R:[10，1]:4 [12，1]:3 
+38)	loop:0	f:110	g:64	h:46	tFireFrom:7	Depth:37 tEnabled:1 4 8 11 13 	M:1(4)4 7 10 12 16 18 21(4)	R:[7，1]:5 [10，1]:4 [12，1]:3 
+39)	loop:0	f:110	g:64	h:46	tFireFrom:4	Depth:38 tEnabled:6 8 	M:1(4)5 7 10 12 14 16 21(4)	R:[5，1]:4 [7，1]:5 [10，1]:4 [12，1]:3 
+40)	loop:0	f:110	g:68	h:42	tFireFrom:6	Depth:39 tEnabled:1 8 11 13 	M:1(4)6 7 10 12 14 18 21(4)	R:[6，1]:3 [7，1]:1 
+41)	loop:0	f:110	g:68	h:42	tFireFrom:13	Depth:40 tEnabled:8 14 	M:1(4)6 7 10 13 14 15 21(4)	R:[6，1]:3 [7，1]:1 [13，1]:5 
+42)	loop:0	f:110	g:73	h:37	tFireFrom:14	Depth:41 tEnabled:1 8 11 	M:1(4)6 7 10 14 15 18 21(5)	R:
+43)	loop:0	f:110	g:73	h:37	tFireFrom:8	Depth:42 tEnabled:1 7 11 	M:1(4)6 10 14 15 18 19 20 21(5)	R:
+44)	loop:0	f:110	g:73	h:37	tFireFrom:7	Depth:43 tEnabled:1 8 11 	M:1(4)7 10 14 15 16 18 20 21(5)	R:[7，1]:5 
+45)	loop:0	f:110	g:73	h:37	tFireFrom:1	Depth:44 tEnabled:2 3 8 	M:1(3)2 7 10 14 15 16 20 21(5)	R:[2，1]:3 [7，1]:5 
+46)	loop:0	f:110	g:76	h:34	tFireFrom:3	Depth:45 tEnabled:1 4 8 11 	M:1(3)4 7 10 15 16 18 20 21(5)	R:[4，1]:4 [7，1]:2 
+47)	loop:0	f:110	g:76	h:34	tFireFrom:1	Depth:46 tEnabled:2 8 	M:1(2)2 4 7 10 15 16 20 21(5)	R:[2，1]:3 [4，1]:4 [7，1]:2 
+48)	loop:0	f:110	g:78	h:32	tFireFrom:8	Depth:47 tEnabled:2 	M:1(2)2 4 10 15 16 19 20(2)21(5)	R:[2，1]:1 [4，1]:2 
+49)	loop:0	f:110	g:79	h:31	tFireFrom:2	Depth:48 tEnabled:1 4 5 11 	M:1(2)3 4 10 16 18 19 20(2)21(5)	R:[3，1]:2 [4，1]:1 
+50)	loop:0	f:111	g:80	h:31	tFireFrom:4	Depth:49 tEnabled:6 	M:1(2)3 5 10 14 16 19 20(2)21(5)	R:[3，1]:1 [5，1]:4 
+51)	loop:0	f:111	g:84	h:27	tFireFrom:6	Depth:50 tEnabled:1 5 7 11 	M:1(2)3 6 10 14 18 19 20(2)21(5)	R:[6，1]:3 
+52)	loop:0	f:111	g:84	h:27	tFireFrom:5	Depth:51 tEnabled:7 	M:1(2)5 6 10 14 15 19 20(2)21(5)	R:[5，1]:4 [6，1]:3 
+53)	loop:0	f:111	g:87	h:24	tFireFrom:7	Depth:52 tEnabled:6 8 	M:1(2)5 7 10 14 15 16 20(2)21(5)	R:[5，1]:1 [7，1]:5 
+54)	loop:0	f:111	g:88	h:23	tFireFrom:6	Depth:53 tEnabled:1 8 11 	M:1(2)6 7 10 14 15 18 20(2)21(5)	R:[6，1]:3 [7，1]:4 
+55)	loop:0	f:111	g:88	h:23	tFireFrom:1	Depth:54 tEnabled:2 3 8 	M:1 2 6 7 10 14 15 20(2)21(5)	R:[2，1]:3 [6，1]:3 [7，1]:4 
+56)	loop:0	f:111	g:91	h:20	tFireFrom:3	Depth:55 tEnabled:1 4 8 11 	M:1 4 6 7 10 15 18 20(2)21(5)	R:[4，1]:4 [7，1]:1 
+57)	loop:0	f:111	g:91	h:20	tFireFrom:1	Depth:56 tEnabled:2 8 	M:2 4 6 7 10 15 20(2)21(5)	R:[2，1]:3 [4，1]:4 [7，1]:1 
+58)	loop:0	f:111	g:92	h:19	tFireFrom:8	Depth:57 tEnabled:2 7 	M:2 4 6 10 15 19 20(3)21(5)	R:[2，1]:2 [4，1]:3 
+59)	loop:0	f:111	g:92	h:19	tFireFrom:7	Depth:58 tEnabled:2 8 	M:2 4 7 10 15 16 20(3)21(5)	R:[2，1]:2 [4，1]:3 [7，1]:5 
+60)	loop:0	f:111	g:94	h:17	tFireFrom:2	Depth:59 tEnabled:4 5 8 11 	M:3 4 7 10 16 18 20(3)21(5)	R:[3，1]:2 [4，1]:1 [7，1]:3 
+61)	loop:0	f:112	g:95	h:17	tFireFrom:4	Depth:60 tEnabled:6 8 	M:3 5 7 10 14 16 20(3)21(5)	R:[3，1]:1 [5，1]:4 [7，1]:2 
+62)	loop:0	f:112	g:97	h:15	tFireFrom:8	Depth:61 tEnabled:6 	M:3 5 10 14 16 19 20(4)21(5)	R:[5，1]:2 
+63)	loop:0	f:112	g:99	h:13	tFireFrom:6	Depth:62 tEnabled:5 7 11 	M:3 6 10 14 18 19 20(4)21(5)	R:[6，1]:3 
+64)	loop:0	f:112	g:99	h:13	tFireFrom:5	Depth:63 tEnabled:7 	M:5 6 10 14 15 19 20(4)21(5)	R:[5，1]:4 [6，1]:3 
+65)	loop:0	f:112	g:102	h:10	tFireFrom:7	Depth:64 tEnabled:6 8 	M:5 7 10 14 15 16 20(4)21(5)	R:[5，1]:1 [7，1]:5 
+66)	loop:0	f:112	g:103	h:9	tFireFrom:6	Depth:65 tEnabled:8 11 	M:6 7 10 14 15 18 20(4)21(5)	R:[6，1]:3 [7，1]:4 
+67)	loop:0	f:112	g:103	h:9	tFireFrom:11	Depth:66 tEnabled:8 12 	M:6 7 11 14 15 17 20(4)21(5)	R:[6，1]:3 [7，1]:4 [11，1]:4 
+68)	loop:0	f:112	g:107	h:5	tFireFrom:12	Depth:67 tEnabled:8 13 	M:6 7 12 14 17 18 20(4)21(5)	R:[12，1]:3 
+69)	loop:0	f:112	g:107	h:5	tFireFrom:8	Depth:68 tEnabled:7 13 	M:6 12 14 17 18 19 20(5)21(5)	R:[12，1]:3 
+70)	loop:0	f:112	g:107	h:5	tFireFrom:7	Depth:69 tEnabled:8 13 	M:7 12 14 16 17 18 20(5)21(5)	R:[7，1]:5 [12，1]:3 
+71)	loop:0	f:115	g:110	h:5	tFireFrom:13	Depth:70 tEnabled:8 14 	M:7 13 14 15 16 17 20(5)21(5)	R:[7，1]:2 [13，1]:5 
+72)	loop:0	f:115	g:115	h:0	tFireFrom:14	Depth:71 tEnabled:8 	M:7 14 15 16 17 18 20(5)21(6)	R:
+73)	loop:0	f:115	g:115	h:0	tFireFrom:8	Depth:72 tEnabled:	M:14 15 16 17 18 19 20(6)21(6)	R:
+=============================================================
+=======================End of a run==========================
+
+
+
+
+=====================Start of a run# 8=======================
+Date & time: 2022/10/26 星期三 20:12:11
+Petri net=ChenFig566, h=7, Open size=0, h2=2
+ep(for A^*_ep)=0.5, ep2(for h dynamic weighting)=0.5
+---------------------------------------------------------------
+Run #:8
+Makespan:114
+Newly expanded markings #:2062
+Total expanded markings #:2573
+This run time：0.331 seconds   (i.e., hours=0, minutes=0, seconds=0, milliseconds=331)
+Total time：4.919 seconds   (i.e., hours=0, minutes=0, seconds=4, milliseconds=919)
+===============================================================
+************* The best schedule found so far： ***********
+
+Node list:
+1)	loop:0	f:0	g:0	h:0	tFireFrom:1	Depth:0 tEnabled:1 9 	M:1(6)8(6)14 15 16 17 18 19 	R:
+2)	loop:0	f:96	g:0	h:96	tFireFrom:9	Depth:1 tEnabled:1 10 	M:1(6)8(5)9 14 15 16 17 18 	R:[9，1]:2 
+3)	loop:0	f:96	g:0	h:96	tFireFrom:1	Depth:2 tEnabled:2 3 10 	M:1(5)2 8(5)9 14 15 16 17 	R:[2，1]:3 [9，1]:2 
+4)	loop:0	f:96	g:2	h:94	tFireFrom:10	Depth:3 tEnabled:2 3 9 	M:1(5)2 8(5)10 14 15 16 19 	R:[2，1]:1 [10，1]:4 
+5)	loop:0	f:96	g:2	h:94	tFireFrom:9	Depth:4 tEnabled:2 3 	M:1(5)2 8(4)9 10 14 15 16 	R:[2，1]:1 [9，1]:2 [10，1]:4 
+6)	loop:0	f:96	g:3	h:93	tFireFrom:3	Depth:5 tEnabled:1 4 11 	M:1(5)4 8(4)9 10 15 16 18 	R:[4，1]:4 [9，1]:1 [10，1]:3 
+7)	loop:0	f:96	g:3	h:93	tFireFrom:1	Depth:6 tEnabled:2 	M:1(4)2 4 8(4)9 10 15 16 	R:[2，1]:3 [4，1]:4 [9，1]:1 [10，1]:3 
+8)	loop:0	f:96	g:6	h:90	tFireFrom:2	Depth:7 tEnabled:1 4 5 11 	M:1(4)3 4 8(4)9 10 16 18 	R:[3，1]:2 [4，1]:1 
+9)	loop:0	f:98	g:8	h:90	tFireFrom:5	Depth:8 tEnabled:6 	M:1(4)4 5 8(4)9 10 15 16 	R:[5，1]:4 
+10)	loop:0	f:98	g:12	h:86	tFireFrom:6	Depth:9 tEnabled:1 4 11 	M:1(4)4 6 8(4)9 10 15 18 	R:[6，1]:3 
+11)	loop:0	f:98	g:12	h:86	tFireFrom:11	Depth:10 tEnabled:10 12 	M:1(4)4 6 8(4)9 11 15 17 	R:[6，1]:3 [11，1]:4 
+12)	loop:0	f:98	g:16	h:82	tFireFrom:12	Depth:11 tEnabled:1 4 10 13 	M:1(4)4 6 8(4)9 12 17 18 	R:[12，1]:3 
+13)	loop:0	f:98	g:16	h:82	tFireFrom:10	Depth:12 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(4)10 12 18 19 	R:[10，1]:4 [12，1]:3 
+14)	loop:0	f:98	g:16	h:82	tFireFrom:9	Depth:13 tEnabled:1 4 11 13 	M:1(4)4 6 8(3)9 10 12 18 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+15)	loop:0	f:101	g:19	h:82	tFireFrom:13	Depth:14 tEnabled:14 	M:1(4)4 6 8(3)9 10 13 15 	R:[10，1]:1 [13，1]:5 
+16)	loop:0	f:101	g:24	h:77	tFireFrom:14	Depth:15 tEnabled:1 4 11 	M:1(4)4 6 8(3)9 10 15 18 21 	R:
+17)	loop:0	f:101	g:24	h:77	tFireFrom:11	Depth:16 tEnabled:10 12 	M:1(4)4 6 8(3)9 11 15 17 21 	R:[11，1]:4 
+18)	loop:0	f:101	g:28	h:73	tFireFrom:12	Depth:17 tEnabled:1 4 10 13 	M:1(4)4 6 8(3)9 12 17 18 21 	R:[12，1]:3 
+19)	loop:0	f:101	g:28	h:73	tFireFrom:10	Depth:18 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(3)10 12 18 19 21 	R:[10，1]:4 [12，1]:3 
+20)	loop:0	f:101	g:28	h:73	tFireFrom:9	Depth:19 tEnabled:1 4 11 13 	M:1(4)4 6 8(2)9 10 12 18 21 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+21)	loop:0	f:104	g:31	h:73	tFireFrom:13	Depth:20 tEnabled:14 	M:1(4)4 6 8(2)9 10 13 15 21 	R:[10，1]:1 [13，1]:5 
+22)	loop:0	f:104	g:36	h:68	tFireFrom:14	Depth:21 tEnabled:1 4 11 	M:1(4)4 6 8(2)9 10 15 18 21(2)	R:
+23)	loop:0	f:104	g:36	h:68	tFireFrom:11	Depth:22 tEnabled:10 12 	M:1(4)4 6 8(2)9 11 15 17 21(2)	R:[11，1]:4 
+24)	loop:0	f:104	g:40	h:64	tFireFrom:12	Depth:23 tEnabled:1 4 10 13 	M:1(4)4 6 8(2)9 12 17 18 21(2)	R:[12，1]:3 
+25)	loop:0	f:104	g:40	h:64	tFireFrom:10	Depth:24 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(2)10 12 18 19 21(2)	R:[10，1]:4 [12，1]:3 
+26)	loop:0	f:104	g:40	h:64	tFireFrom:9	Depth:25 tEnabled:1 4 11 13 	M:1(4)4 6 8 9 10 12 18 21(2)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+27)	loop:0	f:107	g:43	h:64	tFireFrom:13	Depth:26 tEnabled:14 	M:1(4)4 6 8 9 10 13 15 21(2)	R:[10，1]:1 [13，1]:5 
+28)	loop:0	f:107	g:48	h:59	tFireFrom:14	Depth:27 tEnabled:1 4 11 	M:1(4)4 6 8 9 10 15 18 21(3)	R:
+29)	loop:0	f:107	g:48	h:59	tFireFrom:11	Depth:28 tEnabled:10 12 	M:1(4)4 6 8 9 11 15 17 21(3)	R:[11，1]:4 
+30)	loop:0	f:107	g:52	h:55	tFireFrom:12	Depth:29 tEnabled:1 4 10 13 	M:1(4)4 6 8 9 12 17 18 21(3)	R:[12，1]:3 
+31)	loop:0	f:107	g:52	h:55	tFireFrom:10	Depth:30 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8 10 12 18 19 21(3)	R:[10，1]:4 [12，1]:3 
+32)	loop:0	f:107	g:52	h:55	tFireFrom:9	Depth:31 tEnabled:1 4 11 13 	M:1(4)4 6 9 10 12 18 21(3)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+33)	loop:0	f:110	g:55	h:55	tFireFrom:13	Depth:32 tEnabled:14 	M:1(4)4 6 9 10 13 15 21(3)	R:[10，1]:1 [13，1]:5 
+34)	loop:0	f:110	g:60	h:50	tFireFrom:14	Depth:33 tEnabled:1 4 11 	M:1(4)4 6 9 10 15 18 21(4)	R:
+35)	loop:0	f:110	g:60	h:50	tFireFrom:11	Depth:34 tEnabled:10 12 	M:1(4)4 6 9 11 15 17 21(4)	R:[11，1]:4 
+36)	loop:0	f:110	g:64	h:46	tFireFrom:12	Depth:35 tEnabled:1 4 10 13 	M:1(4)4 6 9 12 17 18 21(4)	R:[12，1]:3 
+37)	loop:0	f:110	g:64	h:46	tFireFrom:10	Depth:36 tEnabled:1 4 7 11 13 	M:1(4)4 6 10 12 18 19 21(4)	R:[10，1]:4 [12，1]:3 
+38)	loop:0	f:110	g:64	h:46	tFireFrom:7	Depth:37 tEnabled:1 4 8 11 13 	M:1(4)4 7 10 12 16 18 21(4)	R:[7，1]:5 [10，1]:4 [12，1]:3 
+39)	loop:0	f:110	g:64	h:46	tFireFrom:4	Depth:38 tEnabled:6 8 	M:1(4)5 7 10 12 14 16 21(4)	R:[5，1]:4 [7，1]:5 [10，1]:4 [12，1]:3 
+40)	loop:0	f:110	g:68	h:42	tFireFrom:6	Depth:39 tEnabled:1 8 11 13 	M:1(4)6 7 10 12 14 18 21(4)	R:[6，1]:3 [7，1]:1 
+41)	loop:0	f:110	g:68	h:42	tFireFrom:13	Depth:40 tEnabled:8 14 	M:1(4)6 7 10 13 14 15 21(4)	R:[6，1]:3 [7，1]:1 [13，1]:5 
+42)	loop:0	f:110	g:73	h:37	tFireFrom:14	Depth:41 tEnabled:1 8 11 	M:1(4)6 7 10 14 15 18 21(5)	R:
+43)	loop:0	f:110	g:73	h:37	tFireFrom:8	Depth:42 tEnabled:1 7 11 	M:1(4)6 10 14 15 18 19 20 21(5)	R:
+44)	loop:0	f:110	g:73	h:37	tFireFrom:7	Depth:43 tEnabled:1 8 11 	M:1(4)7 10 14 15 16 18 20 21(5)	R:[7，1]:5 
+45)	loop:0	f:110	g:73	h:37	tFireFrom:1	Depth:44 tEnabled:2 3 8 	M:1(3)2 7 10 14 15 16 20 21(5)	R:[2，1]:3 [7，1]:5 
+46)	loop:0	f:110	g:76	h:34	tFireFrom:3	Depth:45 tEnabled:1 4 8 11 	M:1(3)4 7 10 15 16 18 20 21(5)	R:[4，1]:4 [7，1]:2 
+47)	loop:0	f:110	g:76	h:34	tFireFrom:1	Depth:46 tEnabled:2 8 	M:1(2)2 4 7 10 15 16 20 21(5)	R:[2，1]:3 [4，1]:4 [7，1]:2 
+48)	loop:0	f:110	g:78	h:32	tFireFrom:8	Depth:47 tEnabled:2 	M:1(2)2 4 10 15 16 19 20(2)21(5)	R:[2，1]:1 [4，1]:2 
+49)	loop:0	f:110	g:79	h:31	tFireFrom:2	Depth:48 tEnabled:1 4 5 11 	M:1(2)3 4 10 16 18 19 20(2)21(5)	R:[3，1]:2 [4，1]:1 
+50)	loop:0	f:111	g:80	h:31	tFireFrom:4	Depth:49 tEnabled:6 	M:1(2)3 5 10 14 16 19 20(2)21(5)	R:[3，1]:1 [5，1]:4 
+51)	loop:0	f:111	g:84	h:27	tFireFrom:6	Depth:50 tEnabled:1 5 7 11 	M:1(2)3 6 10 14 18 19 20(2)21(5)	R:[6，1]:3 
+52)	loop:0	f:111	g:84	h:27	tFireFrom:5	Depth:51 tEnabled:7 	M:1(2)5 6 10 14 15 19 20(2)21(5)	R:[5，1]:4 [6，1]:3 
+53)	loop:0	f:111	g:87	h:24	tFireFrom:7	Depth:52 tEnabled:6 8 	M:1(2)5 7 10 14 15 16 20(2)21(5)	R:[5，1]:1 [7，1]:5 
+54)	loop:0	f:111	g:88	h:23	tFireFrom:6	Depth:53 tEnabled:1 8 11 	M:1(2)6 7 10 14 15 18 20(2)21(5)	R:[6，1]:3 [7，1]:4 
+55)	loop:0	f:111	g:88	h:23	tFireFrom:1	Depth:54 tEnabled:2 3 8 	M:1 2 6 7 10 14 15 20(2)21(5)	R:[2，1]:3 [6，1]:3 [7，1]:4 
+56)	loop:0	f:111	g:91	h:20	tFireFrom:2	Depth:55 tEnabled:1 5 8 11 	M:1 3 6 7 10 14 18 20(2)21(5)	R:[3，1]:2 [7，1]:1 
+57)	loop:0	f:111	g:91	h:20	tFireFrom:1	Depth:56 tEnabled:3 8 	M:2 3 6 7 10 14 20(2)21(5)	R:[2，1]:3 [3，1]:2 [7，1]:1 
+58)	loop:0	f:111	g:92	h:19	tFireFrom:8	Depth:57 tEnabled:3 7 	M:2 3 6 10 14 19 20(3)21(5)	R:[2，1]:2 [3，1]:1 
+59)	loop:0	f:111	g:92	h:19	tFireFrom:7	Depth:58 tEnabled:3 8 	M:2 3 7 10 14 16 20(3)21(5)	R:[2，1]:2 [3，1]:1 [7，1]:5 
+60)	loop:0	f:111	g:94	h:17	tFireFrom:3	Depth:59 tEnabled:4 5 8 11 	M:3 4 7 10 16 18 20(3)21(5)	R:[4，1]:4 [7，1]:3 
+61)	loop:0	f:111	g:94	h:17	tFireFrom:5	Depth:60 tEnabled:6 8 	M:4 5 7 10 15 16 20(3)21(5)	R:[4，1]:4 [5，1]:4 [7，1]:3 
+62)	loop:0	f:111	g:97	h:14	tFireFrom:8	Depth:61 tEnabled:6 	M:4 5 10 15 16 19 20(4)21(5)	R:[4，1]:1 [5，1]:1 
+63)	loop:0	f:111	g:98	h:13	tFireFrom:6	Depth:62 tEnabled:4 7 11 	M:4 6 10 15 18 19 20(4)21(5)	R:[6，1]:3 
+64)	loop:0	f:111	g:98	h:13	tFireFrom:11	Depth:63 tEnabled:7 12 	M:4 6 11 15 17 19 20(4)21(5)	R:[6，1]:3 [11，1]:4 
+65)	loop:0	f:111	g:101	h:10	tFireFrom:7	Depth:64 tEnabled:8 12 	M:4 7 11 15 16 17 20(4)21(5)	R:[7，1]:5 [11，1]:1 
+66)	loop:0	f:111	g:102	h:9	tFireFrom:12	Depth:65 tEnabled:4 8 13 	M:4 7 12 16 17 18 20(4)21(5)	R:[7，1]:4 [12，1]:3 
+67)	loop:0	f:111	g:102	h:9	tFireFrom:4	Depth:66 tEnabled:6 8 	M:5 7 12 14 16 17 20(4)21(5)	R:[5，1]:4 [7，1]:4 [12，1]:3 
+68)	loop:0	f:111	g:106	h:5	tFireFrom:8	Depth:67 tEnabled:6 	M:5 12 14 16 17 19 20(5)21(5)	R:
+69)	loop:0	f:111	g:106	h:5	tFireFrom:6	Depth:68 tEnabled:7 13 	M:6 12 14 17 18 19 20(5)21(5)	R:[6，1]:3 
+70)	loop:0	f:111	g:106	h:5	tFireFrom:13	Depth:69 tEnabled:7 14 	M:6 13 14 15 17 19 20(5)21(5)	R:[6，1]:3 [13，1]:5 
+71)	loop:0	f:114	g:109	h:5	tFireFrom:7	Depth:70 tEnabled:8 14 	M:7 13 14 15 16 17 20(5)21(5)	R:[7，1]:5 [13，1]:2 
+72)	loop:0	f:114	g:111	h:3	tFireFrom:14	Depth:71 tEnabled:8 	M:7 14 15 16 17 18 20(5)21(6)	R:[7，1]:3 
+73)	loop:0	f:114	g:114	h:0	tFireFrom:8	Depth:72 tEnabled:	M:14 15 16 17 18 19 20(6)21(6)	R:
+=============================================================
+=======================End of a run==========================
+
+
+
+
+=====================Start of a run# 9=======================
+Date & time: 2022/10/26 星期三 20:12:13
+Petri net=ChenFig566, h=7, Open size=0, h2=2
+ep(for A^*_ep)=0.5, ep2(for h dynamic weighting)=0.5
+---------------------------------------------------------------
+Run #:9
+Makespan:113
+Newly expanded markings #:1420
+Total expanded markings #:3482
+This run time：1.648 seconds   (i.e., hours=0, minutes=0, seconds=1, milliseconds=648)
+Total time：6.567 seconds   (i.e., hours=0, minutes=0, seconds=6, milliseconds=567)
+===============================================================
+************* The best schedule found so far： ***********
+
+Node list:
+1)	loop:0	f:0	g:0	h:0	tFireFrom:1	Depth:0 tEnabled:1 9 	M:1(6)8(6)14 15 16 17 18 19 	R:
+2)	loop:0	f:96	g:0	h:96	tFireFrom:9	Depth:1 tEnabled:1 10 	M:1(6)8(5)9 14 15 16 17 18 	R:[9，1]:2 
+3)	loop:0	f:96	g:0	h:96	tFireFrom:1	Depth:2 tEnabled:2 3 10 	M:1(5)2 8(5)9 14 15 16 17 	R:[2，1]:3 [9，1]:2 
+4)	loop:0	f:96	g:2	h:94	tFireFrom:10	Depth:3 tEnabled:2 3 9 	M:1(5)2 8(5)10 14 15 16 19 	R:[2，1]:1 [10，1]:4 
+5)	loop:0	f:96	g:2	h:94	tFireFrom:9	Depth:4 tEnabled:2 3 	M:1(5)2 8(4)9 10 14 15 16 	R:[2，1]:1 [9，1]:2 [10，1]:4 
+6)	loop:0	f:96	g:3	h:93	tFireFrom:3	Depth:5 tEnabled:1 4 11 	M:1(5)4 8(4)9 10 15 16 18 	R:[4，1]:4 [9，1]:1 [10，1]:3 
+7)	loop:0	f:96	g:3	h:93	tFireFrom:1	Depth:6 tEnabled:2 	M:1(4)2 4 8(4)9 10 15 16 	R:[2，1]:3 [4，1]:4 [9，1]:1 [10，1]:3 
+8)	loop:0	f:96	g:6	h:90	tFireFrom:2	Depth:7 tEnabled:1 4 5 11 	M:1(4)3 4 8(4)9 10 16 18 	R:[3，1]:2 [4，1]:1 
+9)	loop:0	f:98	g:8	h:90	tFireFrom:5	Depth:8 tEnabled:6 	M:1(4)4 5 8(4)9 10 15 16 	R:[5，1]:4 
+10)	loop:0	f:98	g:12	h:86	tFireFrom:6	Depth:9 tEnabled:1 4 11 	M:1(4)4 6 8(4)9 10 15 18 	R:[6，1]:3 
+11)	loop:0	f:98	g:12	h:86	tFireFrom:11	Depth:10 tEnabled:10 12 	M:1(4)4 6 8(4)9 11 15 17 	R:[6，1]:3 [11，1]:4 
+12)	loop:0	f:98	g:16	h:82	tFireFrom:12	Depth:11 tEnabled:1 4 10 13 	M:1(4)4 6 8(4)9 12 17 18 	R:[12，1]:3 
+13)	loop:0	f:98	g:16	h:82	tFireFrom:10	Depth:12 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(4)10 12 18 19 	R:[10，1]:4 [12，1]:3 
+14)	loop:0	f:98	g:16	h:82	tFireFrom:9	Depth:13 tEnabled:1 4 11 13 	M:1(4)4 6 8(3)9 10 12 18 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+15)	loop:0	f:101	g:19	h:82	tFireFrom:13	Depth:14 tEnabled:14 	M:1(4)4 6 8(3)9 10 13 15 	R:[10，1]:1 [13，1]:5 
+16)	loop:0	f:101	g:24	h:77	tFireFrom:14	Depth:15 tEnabled:1 4 11 	M:1(4)4 6 8(3)9 10 15 18 21 	R:
+17)	loop:0	f:101	g:24	h:77	tFireFrom:11	Depth:16 tEnabled:10 12 	M:1(4)4 6 8(3)9 11 15 17 21 	R:[11，1]:4 
+18)	loop:0	f:101	g:28	h:73	tFireFrom:12	Depth:17 tEnabled:1 4 10 13 	M:1(4)4 6 8(3)9 12 17 18 21 	R:[12，1]:3 
+19)	loop:0	f:101	g:28	h:73	tFireFrom:10	Depth:18 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(3)10 12 18 19 21 	R:[10，1]:4 [12，1]:3 
+20)	loop:0	f:101	g:28	h:73	tFireFrom:9	Depth:19 tEnabled:1 4 11 13 	M:1(4)4 6 8(2)9 10 12 18 21 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+21)	loop:0	f:104	g:31	h:73	tFireFrom:13	Depth:20 tEnabled:14 	M:1(4)4 6 8(2)9 10 13 15 21 	R:[10，1]:1 [13，1]:5 
+22)	loop:0	f:104	g:36	h:68	tFireFrom:14	Depth:21 tEnabled:1 4 11 	M:1(4)4 6 8(2)9 10 15 18 21(2)	R:
+23)	loop:0	f:104	g:36	h:68	tFireFrom:11	Depth:22 tEnabled:10 12 	M:1(4)4 6 8(2)9 11 15 17 21(2)	R:[11，1]:4 
+24)	loop:0	f:104	g:40	h:64	tFireFrom:12	Depth:23 tEnabled:1 4 10 13 	M:1(4)4 6 8(2)9 12 17 18 21(2)	R:[12，1]:3 
+25)	loop:0	f:104	g:40	h:64	tFireFrom:10	Depth:24 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(2)10 12 18 19 21(2)	R:[10，1]:4 [12，1]:3 
+26)	loop:0	f:104	g:40	h:64	tFireFrom:9	Depth:25 tEnabled:1 4 11 13 	M:1(4)4 6 8 9 10 12 18 21(2)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+27)	loop:0	f:107	g:43	h:64	tFireFrom:13	Depth:26 tEnabled:14 	M:1(4)4 6 8 9 10 13 15 21(2)	R:[10，1]:1 [13，1]:5 
+28)	loop:0	f:107	g:48	h:59	tFireFrom:14	Depth:27 tEnabled:1 4 11 	M:1(4)4 6 8 9 10 15 18 21(3)	R:
+29)	loop:0	f:107	g:48	h:59	tFireFrom:11	Depth:28 tEnabled:10 12 	M:1(4)4 6 8 9 11 15 17 21(3)	R:[11，1]:4 
+30)	loop:0	f:107	g:52	h:55	tFireFrom:12	Depth:29 tEnabled:1 4 10 13 	M:1(4)4 6 8 9 12 17 18 21(3)	R:[12，1]:3 
+31)	loop:0	f:107	g:52	h:55	tFireFrom:10	Depth:30 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8 10 12 18 19 21(3)	R:[10，1]:4 [12，1]:3 
+32)	loop:0	f:107	g:52	h:55	tFireFrom:9	Depth:31 tEnabled:1 4 11 13 	M:1(4)4 6 9 10 12 18 21(3)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+33)	loop:0	f:110	g:55	h:55	tFireFrom:13	Depth:32 tEnabled:14 	M:1(4)4 6 9 10 13 15 21(3)	R:[10，1]:1 [13，1]:5 
+34)	loop:0	f:110	g:60	h:50	tFireFrom:14	Depth:33 tEnabled:1 4 11 	M:1(4)4 6 9 10 15 18 21(4)	R:
+35)	loop:0	f:110	g:60	h:50	tFireFrom:11	Depth:34 tEnabled:10 12 	M:1(4)4 6 9 11 15 17 21(4)	R:[11，1]:4 
+36)	loop:0	f:110	g:64	h:46	tFireFrom:12	Depth:35 tEnabled:1 4 10 13 	M:1(4)4 6 9 12 17 18 21(4)	R:[12，1]:3 
+37)	loop:0	f:110	g:64	h:46	tFireFrom:10	Depth:36 tEnabled:1 4 7 11 13 	M:1(4)4 6 10 12 18 19 21(4)	R:[10，1]:4 [12，1]:3 
+38)	loop:0	f:110	g:64	h:46	tFireFrom:7	Depth:37 tEnabled:1 4 8 11 13 	M:1(4)4 7 10 12 16 18 21(4)	R:[7，1]:5 [10，1]:4 [12，1]:3 
+39)	loop:0	f:110	g:64	h:46	tFireFrom:4	Depth:38 tEnabled:6 8 	M:1(4)5 7 10 12 14 16 21(4)	R:[5，1]:4 [7，1]:5 [10，1]:4 [12，1]:3 
+40)	loop:0	f:110	g:68	h:42	tFireFrom:6	Depth:39 tEnabled:1 8 11 13 	M:1(4)6 7 10 12 14 18 21(4)	R:[6，1]:3 [7，1]:1 
+41)	loop:0	f:110	g:68	h:42	tFireFrom:13	Depth:40 tEnabled:8 14 	M:1(4)6 7 10 13 14 15 21(4)	R:[6，1]:3 [7，1]:1 [13，1]:5 
+42)	loop:0	f:110	g:73	h:37	tFireFrom:14	Depth:41 tEnabled:1 8 11 	M:1(4)6 7 10 14 15 18 21(5)	R:
+43)	loop:0	f:110	g:73	h:37	tFireFrom:8	Depth:42 tEnabled:1 7 11 	M:1(4)6 10 14 15 18 19 20 21(5)	R:
+44)	loop:0	f:110	g:73	h:37	tFireFrom:7	Depth:43 tEnabled:1 8 11 	M:1(4)7 10 14 15 16 18 20 21(5)	R:[7，1]:5 
+45)	loop:0	f:110	g:73	h:37	tFireFrom:1	Depth:44 tEnabled:2 3 8 	M:1(3)2 7 10 14 15 16 20 21(5)	R:[2，1]:3 [7，1]:5 
+46)	loop:0	f:110	g:76	h:34	tFireFrom:2	Depth:45 tEnabled:1 5 8 11 	M:1(3)3 7 10 14 16 18 20 21(5)	R:[3，1]:2 [7，1]:2 
+47)	loop:0	f:110	g:76	h:34	tFireFrom:1	Depth:46 tEnabled:3 8 	M:1(2)2 3 7 10 14 16 20 21(5)	R:[2，1]:3 [3，1]:2 [7，1]:2 
+48)	loop:0	f:110	g:78	h:32	tFireFrom:8	Depth:47 tEnabled:3 	M:1(2)2 3 10 14 16 19 20(2)21(5)	R:[2，1]:1 
+49)	loop:0	f:110	g:79	h:31	tFireFrom:3	Depth:48 tEnabled:1 4 5 11 	M:1(2)3 4 10 16 18 19 20(2)21(5)	R:[4，1]:4 
+50)	loop:0	f:110	g:79	h:31	tFireFrom:5	Depth:49 tEnabled:6 	M:1(2)4 5 10 15 16 19 20(2)21(5)	R:[4，1]:4 [5，1]:4 
+51)	loop:0	f:110	g:83	h:27	tFireFrom:6	Depth:50 tEnabled:1 4 7 11 	M:1(2)4 6 10 15 18 19 20(2)21(5)	R:[6，1]:3 
+52)	loop:0	f:110	g:83	h:27	tFireFrom:4	Depth:51 tEnabled:7 	M:1(2)5 6 10 14 15 19 20(2)21(5)	R:[5，1]:4 [6，1]:3 
+53)	loop:0	f:110	g:86	h:24	tFireFrom:7	Depth:52 tEnabled:6 8 	M:1(2)5 7 10 14 15 16 20(2)21(5)	R:[5，1]:1 [7，1]:5 
+54)	loop:0	f:110	g:87	h:23	tFireFrom:6	Depth:53 tEnabled:1 8 11 	M:1(2)6 7 10 14 15 18 20(2)21(5)	R:[6，1]:3 [7，1]:4 
+55)	loop:0	f:110	g:87	h:23	tFireFrom:1	Depth:54 tEnabled:2 3 8 	M:1 2 6 7 10 14 15 20(2)21(5)	R:[2，1]:3 [6，1]:3 [7，1]:4 
+56)	loop:0	f:110	g:90	h:20	tFireFrom:2	Depth:55 tEnabled:1 5 8 11 	M:1 3 6 7 10 14 18 20(2)21(5)	R:[3，1]:2 [7，1]:1 
+57)	loop:0	f:110	g:90	h:20	tFireFrom:1	Depth:56 tEnabled:3 8 	M:2 3 6 7 10 14 20(2)21(5)	R:[2，1]:3 [3，1]:2 [7，1]:1 
+58)	loop:0	f:110	g:91	h:19	tFireFrom:8	Depth:57 tEnabled:3 7 	M:2 3 6 10 14 19 20(3)21(5)	R:[2，1]:2 [3，1]:1 
+59)	loop:0	f:110	g:91	h:19	tFireFrom:7	Depth:58 tEnabled:3 8 	M:2 3 7 10 14 16 20(3)21(5)	R:[2，1]:2 [3，1]:1 [7，1]:5 
+60)	loop:0	f:110	g:93	h:17	tFireFrom:3	Depth:59 tEnabled:4 5 8 11 	M:3 4 7 10 16 18 20(3)21(5)	R:[4，1]:4 [7，1]:3 
+61)	loop:0	f:110	g:93	h:17	tFireFrom:5	Depth:60 tEnabled:6 8 	M:4 5 7 10 15 16 20(3)21(5)	R:[4，1]:4 [5，1]:4 [7，1]:3 
+62)	loop:0	f:110	g:96	h:14	tFireFrom:8	Depth:61 tEnabled:6 	M:4 5 10 15 16 19 20(4)21(5)	R:[4，1]:1 [5，1]:1 
+63)	loop:0	f:110	g:97	h:13	tFireFrom:6	Depth:62 tEnabled:4 7 11 	M:4 6 10 15 18 19 20(4)21(5)	R:[6，1]:3 
+64)	loop:0	f:110	g:97	h:13	tFireFrom:11	Depth:63 tEnabled:7 12 	M:4 6 11 15 17 19 20(4)21(5)	R:[6，1]:3 [11，1]:4 
+65)	loop:0	f:110	g:100	h:10	tFireFrom:7	Depth:64 tEnabled:8 12 	M:4 7 11 15 16 17 20(4)21(5)	R:[7，1]:5 [11，1]:1 
+66)	loop:0	f:110	g:101	h:9	tFireFrom:12	Depth:65 tEnabled:4 8 13 	M:4 7 12 16 17 18 20(4)21(5)	R:[7，1]:4 [12，1]:3 
+67)	loop:0	f:110	g:101	h:9	tFireFrom:4	Depth:66 tEnabled:6 8 	M:5 7 12 14 16 17 20(4)21(5)	R:[5，1]:4 [7，1]:4 [12，1]:3 
+68)	loop:0	f:110	g:105	h:5	tFireFrom:8	Depth:67 tEnabled:6 	M:5 12 14 16 17 19 20(5)21(5)	R:
+69)	loop:0	f:110	g:105	h:5	tFireFrom:6	Depth:68 tEnabled:7 13 	M:6 12 14 17 18 19 20(5)21(5)	R:[6，1]:3 
+70)	loop:0	f:110	g:105	h:5	tFireFrom:13	Depth:69 tEnabled:7 14 	M:6 13 14 15 17 19 20(5)21(5)	R:[6，1]:3 [13，1]:5 
+71)	loop:0	f:113	g:108	h:5	tFireFrom:7	Depth:70 tEnabled:8 14 	M:7 13 14 15 16 17 20(5)21(5)	R:[7，1]:5 [13，1]:2 
+72)	loop:0	f:113	g:110	h:3	tFireFrom:14	Depth:71 tEnabled:8 	M:7 14 15 16 17 18 20(5)21(6)	R:[7，1]:3 
+73)	loop:0	f:113	g:113	h:0	tFireFrom:8	Depth:72 tEnabled:	M:14 15 16 17 18 19 20(6)21(6)	R:
+=============================================================
+=======================End of a run==========================
+
+
+
+
+=====================Start of a run# 10=======================
+Date & time: 2022/10/26 星期三 20:12:18
+Petri net=ChenFig566, h=7, Open size=0, h2=2
+ep(for A^*_ep)=0.5, ep2(for h dynamic weighting)=0.5
+---------------------------------------------------------------
+Run #:10
+Makespan:111
+Newly expanded markings #:4596
+Total expanded markings #:6016
+This run time：4.948 seconds   (i.e., hours=0, minutes=0, seconds=4, milliseconds=948)
+Total time：11.515 seconds   (i.e., hours=0, minutes=0, seconds=11, milliseconds=515)
+===============================================================
+************* The best schedule found so far： ***********
+
+Node list:
+1)	loop:0	f:0	g:0	h:0	tFireFrom:1	Depth:0 tEnabled:1 9 	M:1(6)8(6)14 15 16 17 18 19 	R:
+2)	loop:0	f:96	g:0	h:96	tFireFrom:9	Depth:1 tEnabled:1 10 	M:1(6)8(5)9 14 15 16 17 18 	R:[9，1]:2 
+3)	loop:0	f:96	g:0	h:96	tFireFrom:1	Depth:2 tEnabled:2 3 10 	M:1(5)2 8(5)9 14 15 16 17 	R:[2，1]:3 [9，1]:2 
+4)	loop:0	f:96	g:2	h:94	tFireFrom:10	Depth:3 tEnabled:2 3 9 	M:1(5)2 8(5)10 14 15 16 19 	R:[2，1]:1 [10，1]:4 
+5)	loop:0	f:96	g:2	h:94	tFireFrom:9	Depth:4 tEnabled:2 3 	M:1(5)2 8(4)9 10 14 15 16 	R:[2，1]:1 [9，1]:2 [10，1]:4 
+6)	loop:0	f:96	g:3	h:93	tFireFrom:3	Depth:5 tEnabled:1 4 11 	M:1(5)4 8(4)9 10 15 16 18 	R:[4，1]:4 [9，1]:1 [10，1]:3 
+7)	loop:0	f:96	g:3	h:93	tFireFrom:1	Depth:6 tEnabled:2 	M:1(4)2 4 8(4)9 10 15 16 	R:[2，1]:3 [4，1]:4 [9，1]:1 [10，1]:3 
+8)	loop:0	f:96	g:6	h:90	tFireFrom:2	Depth:7 tEnabled:1 4 5 11 	M:1(4)3 4 8(4)9 10 16 18 	R:[3，1]:2 [4，1]:1 
+9)	loop:0	f:98	g:8	h:90	tFireFrom:5	Depth:8 tEnabled:6 	M:1(4)4 5 8(4)9 10 15 16 	R:[5，1]:4 
+10)	loop:0	f:98	g:12	h:86	tFireFrom:6	Depth:9 tEnabled:1 4 11 	M:1(4)4 6 8(4)9 10 15 18 	R:[6，1]:3 
+11)	loop:0	f:98	g:12	h:86	tFireFrom:11	Depth:10 tEnabled:10 12 	M:1(4)4 6 8(4)9 11 15 17 	R:[6，1]:3 [11，1]:4 
+12)	loop:0	f:98	g:16	h:82	tFireFrom:12	Depth:11 tEnabled:1 4 10 13 	M:1(4)4 6 8(4)9 12 17 18 	R:[12，1]:3 
+13)	loop:0	f:98	g:16	h:82	tFireFrom:10	Depth:12 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(4)10 12 18 19 	R:[10，1]:4 [12，1]:3 
+14)	loop:0	f:98	g:16	h:82	tFireFrom:9	Depth:13 tEnabled:1 4 11 13 	M:1(4)4 6 8(3)9 10 12 18 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+15)	loop:0	f:101	g:19	h:82	tFireFrom:13	Depth:14 tEnabled:14 	M:1(4)4 6 8(3)9 10 13 15 	R:[10，1]:1 [13，1]:5 
+16)	loop:0	f:101	g:24	h:77	tFireFrom:14	Depth:15 tEnabled:1 4 11 	M:1(4)4 6 8(3)9 10 15 18 21 	R:
+17)	loop:0	f:101	g:24	h:77	tFireFrom:11	Depth:16 tEnabled:10 12 	M:1(4)4 6 8(3)9 11 15 17 21 	R:[11，1]:4 
+18)	loop:0	f:101	g:28	h:73	tFireFrom:12	Depth:17 tEnabled:1 4 10 13 	M:1(4)4 6 8(3)9 12 17 18 21 	R:[12，1]:3 
+19)	loop:0	f:101	g:28	h:73	tFireFrom:10	Depth:18 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(3)10 12 18 19 21 	R:[10，1]:4 [12，1]:3 
+20)	loop:0	f:101	g:28	h:73	tFireFrom:9	Depth:19 tEnabled:1 4 11 13 	M:1(4)4 6 8(2)9 10 12 18 21 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+21)	loop:0	f:104	g:31	h:73	tFireFrom:13	Depth:20 tEnabled:14 	M:1(4)4 6 8(2)9 10 13 15 21 	R:[10，1]:1 [13，1]:5 
+22)	loop:0	f:104	g:36	h:68	tFireFrom:14	Depth:21 tEnabled:1 4 11 	M:1(4)4 6 8(2)9 10 15 18 21(2)	R:
+23)	loop:0	f:104	g:36	h:68	tFireFrom:11	Depth:22 tEnabled:10 12 	M:1(4)4 6 8(2)9 11 15 17 21(2)	R:[11，1]:4 
+24)	loop:0	f:104	g:40	h:64	tFireFrom:12	Depth:23 tEnabled:1 4 10 13 	M:1(4)4 6 8(2)9 12 17 18 21(2)	R:[12，1]:3 
+25)	loop:0	f:104	g:40	h:64	tFireFrom:10	Depth:24 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(2)10 12 18 19 21(2)	R:[10，1]:4 [12，1]:3 
+26)	loop:0	f:104	g:40	h:64	tFireFrom:9	Depth:25 tEnabled:1 4 11 13 	M:1(4)4 6 8 9 10 12 18 21(2)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+27)	loop:0	f:107	g:43	h:64	tFireFrom:13	Depth:26 tEnabled:14 	M:1(4)4 6 8 9 10 13 15 21(2)	R:[10，1]:1 [13，1]:5 
+28)	loop:0	f:107	g:48	h:59	tFireFrom:14	Depth:27 tEnabled:1 4 11 	M:1(4)4 6 8 9 10 15 18 21(3)	R:
+29)	loop:0	f:107	g:48	h:59	tFireFrom:11	Depth:28 tEnabled:10 12 	M:1(4)4 6 8 9 11 15 17 21(3)	R:[11，1]:4 
+30)	loop:0	f:107	g:52	h:55	tFireFrom:12	Depth:29 tEnabled:1 4 10 13 	M:1(4)4 6 8 9 12 17 18 21(3)	R:[12，1]:3 
+31)	loop:0	f:107	g:52	h:55	tFireFrom:10	Depth:30 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8 10 12 18 19 21(3)	R:[10，1]:4 [12，1]:3 
+32)	loop:0	f:107	g:52	h:55	tFireFrom:7	Depth:31 tEnabled:1 4 8 11 13 	M:1(4)4 7 8 10 12 16 18 21(3)	R:[7，1]:5 [10，1]:4 [12，1]:3 
+33)	loop:0	f:107	g:52	h:55	tFireFrom:4	Depth:32 tEnabled:6 8 	M:1(4)5 7 8 10 12 14 16 21(3)	R:[5，1]:4 [7，1]:5 [10，1]:4 [12，1]:3 
+34)	loop:0	f:107	g:56	h:51	tFireFrom:6	Depth:33 tEnabled:1 8 11 13 	M:1(4)6 7 8 10 12 14 18 21(3)	R:[6，1]:3 [7，1]:1 
+35)	loop:0	f:107	g:56	h:51	tFireFrom:13	Depth:34 tEnabled:8 14 	M:1(4)6 7 8 10 13 14 15 21(3)	R:[6，1]:3 [7，1]:1 [13，1]:5 
+36)	loop:0	f:107	g:61	h:46	tFireFrom:14	Depth:35 tEnabled:1 8 11 	M:1(4)6 7 8 10 14 15 18 21(4)	R:
+37)	loop:0	f:107	g:61	h:46	tFireFrom:11	Depth:36 tEnabled:8 12 	M:1(4)6 7 8 11 14 15 17 21(4)	R:[11，1]:4 
+38)	loop:0	f:107	g:65	h:42	tFireFrom:12	Depth:37 tEnabled:1 8 13 	M:1(4)6 7 8 12 14 17 18 21(4)	R:[12，1]:3 
+39)	loop:0	f:107	g:65	h:42	tFireFrom:8	Depth:38 tEnabled:1 7 9 13 	M:1(4)6 8 12 14 17 18 19 20 21(4)	R:[12，1]:3 
+40)	loop:0	f:107	g:65	h:42	tFireFrom:9	Depth:39 tEnabled:1 10 13 	M:1(4)6 9 12 14 17 18 20 21(4)	R:[9，1]:2 [12，1]:3 
+41)	loop:0	f:107	g:65	h:42	tFireFrom:1	Depth:40 tEnabled:3 10 	M:1(3)2 6 9 12 14 17 20 21(4)	R:[2，1]:3 [9，1]:2 [12，1]:3 
+42)	loop:0	f:107	g:67	h:40	tFireFrom:10	Depth:41 tEnabled:3 7 	M:1(3)2 6 10 12 14 19 20 21(4)	R:[2，1]:1 [10，1]:4 [12，1]:1 
+43)	loop:0	f:107	g:67	h:40	tFireFrom:7	Depth:42 tEnabled:3 8 	M:1(3)2 7 10 12 14 16 20 21(4)	R:[2，1]:1 [7，1]:5 [10，1]:4 [12，1]:1 
+44)	loop:0	f:107	g:68	h:39	tFireFrom:3	Depth:43 tEnabled:1 4 8 11 13 	M:1(3)4 7 10 12 16 18 20 21(4)	R:[4，1]:4 [7，1]:4 [10，1]:3 
+45)	loop:0	f:107	g:68	h:39	tFireFrom:13	Depth:44 tEnabled:8 14 	M:1(3)4 7 10 13 15 16 20 21(4)	R:[4，1]:4 [7，1]:4 [10，1]:3 [13，1]:5 
+46)	loop:0	f:107	g:73	h:34	tFireFrom:14	Depth:45 tEnabled:1 4 8 11 	M:1(3)4 7 10 15 16 18 20 21(5)	R:
+47)	loop:0	f:107	g:73	h:34	tFireFrom:8	Depth:46 tEnabled:1 4 11 	M:1(3)4 10 15 16 18 19 20(2)21(5)	R:
+48)	loop:0	f:107	g:73	h:34	tFireFrom:4	Depth:47 tEnabled:6 	M:1(3)5 10 14 15 16 19 20(2)21(5)	R:[5，1]:4 
+49)	loop:0	f:107	g:77	h:30	tFireFrom:6	Depth:48 tEnabled:1 7 11 	M:1(3)6 10 14 15 18 19 20(2)21(5)	R:[6，1]:3 
+50)	loop:0	f:107	g:77	h:30	tFireFrom:1	Depth:49 tEnabled:2 3 7 	M:1(2)2 6 10 14 15 19 20(2)21(5)	R:[2，1]:3 [6，1]:3 
+51)	loop:0	f:107	g:80	h:27	tFireFrom:7	Depth:50 tEnabled:2 3 8 	M:1(2)2 7 10 14 15 16 20(2)21(5)	R:[7，1]:5 
+52)	loop:0	f:107	g:80	h:27	tFireFrom:3	Depth:51 tEnabled:1 4 8 11 	M:1(2)4 7 10 15 16 18 20(2)21(5)	R:[4，1]:4 [7，1]:5 
+53)	loop:0	f:107	g:80	h:27	tFireFrom:1	Depth:52 tEnabled:2 8 	M:1 2 4 7 10 15 16 20(2)21(5)	R:[2，1]:3 [4，1]:4 [7，1]:5 
+54)	loop:0	f:107	g:83	h:24	tFireFrom:2	Depth:53 tEnabled:1 4 5 8 11 	M:1 3 4 7 10 16 18 20(2)21(5)	R:[3，1]:2 [4，1]:1 [7，1]:2 
+55)	loop:0	f:108	g:84	h:24	tFireFrom:4	Depth:54 tEnabled:6 8 	M:1 3 5 7 10 14 16 20(2)21(5)	R:[3，1]:1 [5，1]:4 [7，1]:1 
+56)	loop:0	f:108	g:85	h:23	tFireFrom:8	Depth:55 tEnabled:6 	M:1 3 5 10 14 16 19 20(3)21(5)	R:[5，1]:3 
+57)	loop:0	f:108	g:88	h:20	tFireFrom:6	Depth:56 tEnabled:1 5 7 11 	M:1 3 6 10 14 18 19 20(3)21(5)	R:[6，1]:3 
+58)	loop:0	f:108	g:88	h:20	tFireFrom:5	Depth:57 tEnabled:7 	M:1 5 6 10 14 15 19 20(3)21(5)	R:[5，1]:4 [6，1]:3 
+59)	loop:0	f:108	g:91	h:17	tFireFrom:7	Depth:58 tEnabled:6 8 	M:1 5 7 10 14 15 16 20(3)21(5)	R:[5，1]:1 [7，1]:5 
+60)	loop:0	f:108	g:92	h:16	tFireFrom:6	Depth:59 tEnabled:1 8 11 	M:1 6 7 10 14 15 18 20(3)21(5)	R:[6，1]:3 [7，1]:4 
+61)	loop:0	f:108	g:92	h:16	tFireFrom:1	Depth:60 tEnabled:2 3 8 	M:2 6 7 10 14 15 20(3)21(5)	R:[2，1]:3 [6，1]:3 [7，1]:4 
+62)	loop:0	f:108	g:95	h:13	tFireFrom:3	Depth:61 tEnabled:4 8 11 	M:4 6 7 10 15 18 20(3)21(5)	R:[4，1]:4 [7，1]:1 
+63)	loop:0	f:108	g:95	h:13	tFireFrom:11	Depth:62 tEnabled:8 12 	M:4 6 7 11 15 17 20(3)21(5)	R:[4，1]:4 [7，1]:1 [11，1]:4 
+64)	loop:0	f:108	g:96	h:12	tFireFrom:8	Depth:63 tEnabled:7 12 	M:4 6 11 15 17 19 20(4)21(5)	R:[4，1]:3 [11，1]:3 
+65)	loop:0	f:108	g:96	h:12	tFireFrom:7	Depth:64 tEnabled:8 12 	M:4 7 11 15 16 17 20(4)21(5)	R:[4，1]:3 [7，1]:5 [11，1]:3 
+66)	loop:0	f:108	g:99	h:9	tFireFrom:12	Depth:65 tEnabled:4 8 13 	M:4 7 12 16 17 18 20(4)21(5)	R:[7，1]:2 [12，1]:3 
+67)	loop:0	f:108	g:99	h:9	tFireFrom:4	Depth:66 tEnabled:6 8 	M:5 7 12 14 16 17 20(4)21(5)	R:[5，1]:4 [7，1]:2 [12，1]:3 
+68)	loop:0	f:108	g:101	h:7	tFireFrom:8	Depth:67 tEnabled:6 	M:5 12 14 16 17 19 20(5)21(5)	R:[5，1]:2 [12，1]:1 
+69)	loop:0	f:108	g:103	h:5	tFireFrom:6	Depth:68 tEnabled:7 13 	M:6 12 14 17 18 19 20(5)21(5)	R:[6，1]:3 
+70)	loop:0	f:108	g:103	h:5	tFireFrom:13	Depth:69 tEnabled:7 14 	M:6 13 14 15 17 19 20(5)21(5)	R:[6，1]:3 [13，1]:5 
+71)	loop:0	f:111	g:106	h:5	tFireFrom:7	Depth:70 tEnabled:8 14 	M:7 13 14 15 16 17 20(5)21(5)	R:[7，1]:5 [13，1]:2 
+72)	loop:0	f:111	g:108	h:3	tFireFrom:14	Depth:71 tEnabled:8 	M:7 14 15 16 17 18 20(5)21(6)	R:[7，1]:3 
+73)	loop:0	f:111	g:111	h:0	tFireFrom:8	Depth:72 tEnabled:	M:14 15 16 17 18 19 20(6)21(6)	R:
+=============================================================
+=======================End of a run==========================
+
+
+
+
+=====================Start of a run# 11=======================
+Date & time: 2022/10/26 星期三 20:12:19
+Petri net=ChenFig566, h=7, Open size=0, h2=2
+ep(for A^*_ep)=0.5, ep2(for h dynamic weighting)=0.5
+---------------------------------------------------------------
+Run #:11
+Makespan:110
+Newly expanded markings #:1818
+Total expanded markings #:6414
+This run time：0.757 seconds   (i.e., hours=0, minutes=0, seconds=0, milliseconds=757)
+Total time：12.272 seconds   (i.e., hours=0, minutes=0, seconds=12, milliseconds=272)
+===============================================================
+************* The best schedule found so far： ***********
+
+Node list:
+1)	loop:0	f:0	g:0	h:0	tFireFrom:1	Depth:0 tEnabled:1 9 	M:1(6)8(6)14 15 16 17 18 19 	R:
+2)	loop:0	f:96	g:0	h:96	tFireFrom:9	Depth:1 tEnabled:1 10 	M:1(6)8(5)9 14 15 16 17 18 	R:[9，1]:2 
+3)	loop:0	f:96	g:0	h:96	tFireFrom:1	Depth:2 tEnabled:2 3 10 	M:1(5)2 8(5)9 14 15 16 17 	R:[2，1]:3 [9，1]:2 
+4)	loop:0	f:96	g:2	h:94	tFireFrom:10	Depth:3 tEnabled:2 3 9 	M:1(5)2 8(5)10 14 15 16 19 	R:[2，1]:1 [10，1]:4 
+5)	loop:0	f:96	g:2	h:94	tFireFrom:9	Depth:4 tEnabled:2 3 	M:1(5)2 8(4)9 10 14 15 16 	R:[2，1]:1 [9，1]:2 [10，1]:4 
+6)	loop:0	f:96	g:3	h:93	tFireFrom:3	Depth:5 tEnabled:1 4 11 	M:1(5)4 8(4)9 10 15 16 18 	R:[4，1]:4 [9，1]:1 [10，1]:3 
+7)	loop:0	f:96	g:3	h:93	tFireFrom:1	Depth:6 tEnabled:2 	M:1(4)2 4 8(4)9 10 15 16 	R:[2，1]:3 [4，1]:4 [9，1]:1 [10，1]:3 
+8)	loop:0	f:96	g:6	h:90	tFireFrom:2	Depth:7 tEnabled:1 4 5 11 	M:1(4)3 4 8(4)9 10 16 18 	R:[3，1]:2 [4，1]:1 
+9)	loop:0	f:98	g:8	h:90	tFireFrom:5	Depth:8 tEnabled:6 	M:1(4)4 5 8(4)9 10 15 16 	R:[5，1]:4 
+10)	loop:0	f:98	g:12	h:86	tFireFrom:6	Depth:9 tEnabled:1 4 11 	M:1(4)4 6 8(4)9 10 15 18 	R:[6，1]:3 
+11)	loop:0	f:98	g:12	h:86	tFireFrom:11	Depth:10 tEnabled:10 12 	M:1(4)4 6 8(4)9 11 15 17 	R:[6，1]:3 [11，1]:4 
+12)	loop:0	f:98	g:16	h:82	tFireFrom:12	Depth:11 tEnabled:1 4 10 13 	M:1(4)4 6 8(4)9 12 17 18 	R:[12，1]:3 
+13)	loop:0	f:98	g:16	h:82	tFireFrom:10	Depth:12 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(4)10 12 18 19 	R:[10，1]:4 [12，1]:3 
+14)	loop:0	f:98	g:16	h:82	tFireFrom:9	Depth:13 tEnabled:1 4 11 13 	M:1(4)4 6 8(3)9 10 12 18 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+15)	loop:0	f:101	g:19	h:82	tFireFrom:13	Depth:14 tEnabled:14 	M:1(4)4 6 8(3)9 10 13 15 	R:[10，1]:1 [13，1]:5 
+16)	loop:0	f:101	g:24	h:77	tFireFrom:14	Depth:15 tEnabled:1 4 11 	M:1(4)4 6 8(3)9 10 15 18 21 	R:
+17)	loop:0	f:101	g:24	h:77	tFireFrom:11	Depth:16 tEnabled:10 12 	M:1(4)4 6 8(3)9 11 15 17 21 	R:[11，1]:4 
+18)	loop:0	f:101	g:28	h:73	tFireFrom:12	Depth:17 tEnabled:1 4 10 13 	M:1(4)4 6 8(3)9 12 17 18 21 	R:[12，1]:3 
+19)	loop:0	f:101	g:28	h:73	tFireFrom:10	Depth:18 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(3)10 12 18 19 21 	R:[10，1]:4 [12，1]:3 
+20)	loop:0	f:101	g:28	h:73	tFireFrom:9	Depth:19 tEnabled:1 4 11 13 	M:1(4)4 6 8(2)9 10 12 18 21 	R:[9，1]:2 [10，1]:4 [12，1]:3 
+21)	loop:0	f:104	g:31	h:73	tFireFrom:13	Depth:20 tEnabled:14 	M:1(4)4 6 8(2)9 10 13 15 21 	R:[10，1]:1 [13，1]:5 
+22)	loop:0	f:104	g:36	h:68	tFireFrom:14	Depth:21 tEnabled:1 4 11 	M:1(4)4 6 8(2)9 10 15 18 21(2)	R:
+23)	loop:0	f:104	g:36	h:68	tFireFrom:11	Depth:22 tEnabled:10 12 	M:1(4)4 6 8(2)9 11 15 17 21(2)	R:[11，1]:4 
+24)	loop:0	f:104	g:40	h:64	tFireFrom:12	Depth:23 tEnabled:1 4 10 13 	M:1(4)4 6 8(2)9 12 17 18 21(2)	R:[12，1]:3 
+25)	loop:0	f:104	g:40	h:64	tFireFrom:10	Depth:24 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8(2)10 12 18 19 21(2)	R:[10，1]:4 [12，1]:3 
+26)	loop:0	f:104	g:40	h:64	tFireFrom:9	Depth:25 tEnabled:1 4 11 13 	M:1(4)4 6 8 9 10 12 18 21(2)	R:[9，1]:2 [10，1]:4 [12，1]:3 
+27)	loop:0	f:107	g:43	h:64	tFireFrom:13	Depth:26 tEnabled:14 	M:1(4)4 6 8 9 10 13 15 21(2)	R:[10，1]:1 [13，1]:5 
+28)	loop:0	f:107	g:48	h:59	tFireFrom:14	Depth:27 tEnabled:1 4 11 	M:1(4)4 6 8 9 10 15 18 21(3)	R:
+29)	loop:0	f:107	g:48	h:59	tFireFrom:11	Depth:28 tEnabled:10 12 	M:1(4)4 6 8 9 11 15 17 21(3)	R:[11，1]:4 
+30)	loop:0	f:107	g:52	h:55	tFireFrom:12	Depth:29 tEnabled:1 4 10 13 	M:1(4)4 6 8 9 12 17 18 21(3)	R:[12，1]:3 
+31)	loop:0	f:107	g:52	h:55	tFireFrom:10	Depth:30 tEnabled:1 4 7 9 11 13 	M:1(4)4 6 8 10 12 18 19 21(3)	R:[10，1]:4 [12，1]:3 
+32)	loop:0	f:107	g:52	h:55	tFireFrom:7	Depth:31 tEnabled:1 4 8 11 13 	M:1(4)4 7 8 10 12 16 18 21(3)	R:[7，1]:5 [10，1]:4 [12，1]:3 
+33)	loop:0	f:107	g:52	h:55	tFireFrom:4	Depth:32 tEnabled:6 8 	M:1(4)5 7 8 10 12 14 16 21(3)	R:[5，1]:4 [7，1]:5 [10，1]:4 [12，1]:3 
+34)	loop:0	f:107	g:56	h:51	tFireFrom:6	Depth:33 tEnabled:1 8 11 13 	M:1(4)6 7 8 10 12 14 18 21(3)	R:[6，1]:3 [7，1]:1 
+35)	loop:0	f:107	g:56	h:51	tFireFrom:13	Depth:34 tEnabled:8 14 	M:1(4)6 7 8 10 13 14 15 21(3)	R:[6，1]:3 [7，1]:1 [13，1]:5 
+36)	loop:0	f:107	g:61	h:46	tFireFrom:14	Depth:35 tEnabled:1 8 11 	M:1(4)6 7 8 10 14 15 18 21(4)	R:
+37)	loop:0	f:107	g:61	h:46	tFireFrom:11	Depth:36 tEnabled:8 12 	M:1(4)6 7 8 11 14 15 17 21(4)	R:[11，1]:4 
+38)	loop:0	f:107	g:65	h:42	tFireFrom:12	Depth:37 tEnabled:1 8 13 	M:1(4)6 7 8 12 14 17 18 21(4)	R:[12，1]:3 
+39)	loop:0	f:107	g:65	h:42	tFireFrom:8	Depth:38 tEnabled:1 7 9 13 	M:1(4)6 8 12 14 17 18 19 20 21(4)	R:[12，1]:3 
+40)	loop:0	f:107	g:65	h:42	tFireFrom:9	Depth:39 tEnabled:1 10 13 	M:1(4)6 9 12 14 17 18 20 21(4)	R:[9，1]:2 [12，1]:3 
+41)	loop:0	f:107	g:65	h:42	tFireFrom:1	Depth:40 tEnabled:3 10 	M:1(3)2 6 9 12 14 17 20 21(4)	R:[2，1]:3 [9，1]:2 [12，1]:3 
+42)	loop:0	f:107	g:67	h:40	tFireFrom:10	Depth:41 tEnabled:3 7 	M:1(3)2 6 10 12 14 19 20 21(4)	R:[2，1]:1 [10，1]:4 [12，1]:1 
+43)	loop:0	f:107	g:67	h:40	tFireFrom:7	Depth:42 tEnabled:3 8 	M:1(3)2 7 10 12 14 16 20 21(4)	R:[2，1]:1 [7，1]:5 [10，1]:4 [12，1]:1 
+44)	loop:0	f:107	g:68	h:39	tFireFrom:3	Depth:43 tEnabled:1 4 8 11 13 	M:1(3)4 7 10 12 16 18 20 21(4)	R:[4，1]:4 [7，1]:4 [10，1]:3 
+45)	loop:0	f:107	g:68	h:39	tFireFrom:13	Depth:44 tEnabled:8 14 	M:1(3)4 7 10 13 15 16 20 21(4)	R:[4，1]:4 [7，1]:4 [10，1]:3 [13，1]:5 
+46)	loop:0	f:107	g:73	h:34	tFireFrom:14	Depth:45 tEnabled:1 4 8 11 	M:1(3)4 7 10 15 16 18 20 21(5)	R:
+47)	loop:0	f:107	g:73	h:34	tFireFrom:8	Depth:46 tEnabled:1 4 11 	M:1(3)4 10 15 16 18 19 20(2)21(5)	R:
+48)	loop:0	f:107	g:73	h:34	tFireFrom:4	Depth:47 tEnabled:6 	M:1(3)5 10 14 15 16 19 20(2)21(5)	R:[5，1]:4 
+49)	loop:0	f:107	g:77	h:30	tFireFrom:6	Depth:48 tEnabled:1 7 11 	M:1(3)6 10 14 15 18 19 20(2)21(5)	R:[6，1]:3 
+50)	loop:0	f:107	g:77	h:30	tFireFrom:1	Depth:49 tEnabled:2 3 7 	M:1(2)2 6 10 14 15 19 20(2)21(5)	R:[2，1]:3 [6，1]:3 
+51)	loop:0	f:107	g:80	h:27	tFireFrom:7	Depth:50 tEnabled:2 3 8 	M:1(2)2 7 10 14 15 16 20(2)21(5)	R:[7，1]:5 
+52)	loop:0	f:107	g:80	h:27	tFireFrom:2	Depth:51 tEnabled:1 5 8 11 	M:1(2)3 7 10 14 16 18 20(2)21(5)	R:[3，1]:2 [7，1]:5 
+53)	loop:0	f:107	g:80	h:27	tFireFrom:1	Depth:52 tEnabled:3 8 	M:1 2 3 7 10 14 16 20(2)21(5)	R:[2，1]:3 [3，1]:2 [7，1]:5 
+54)	loop:0	f:107	g:83	h:24	tFireFrom:3	Depth:53 tEnabled:1 4 5 8 11 	M:1 3 4 7 10 16 18 20(2)21(5)	R:[4，1]:4 [7，1]:2 
+55)	loop:0	f:107	g:83	h:24	tFireFrom:5	Depth:54 tEnabled:6 8 	M:1 4 5 7 10 15 16 20(2)21(5)	R:[4，1]:4 [5，1]:4 [7，1]:2 
+56)	loop:0	f:107	g:85	h:22	tFireFrom:8	Depth:55 tEnabled:6 	M:1 4 5 10 15 16 19 20(3)21(5)	R:[4，1]:2 [5，1]:2 
+57)	loop:0	f:107	g:87	h:20	tFireFrom:6	Depth:56 tEnabled:1 4 7 11 	M:1 4 6 10 15 18 19 20(3)21(5)	R:[6，1]:3 
+58)	loop:0	f:107	g:87	h:20	tFireFrom:4	Depth:57 tEnabled:7 	M:1 5 6 10 14 15 19 20(3)21(5)	R:[5，1]:4 [6，1]:3 
+59)	loop:0	f:107	g:90	h:17	tFireFrom:7	Depth:58 tEnabled:6 8 	M:1 5 7 10 14 15 16 20(3)21(5)	R:[5，1]:1 [7，1]:5 
+60)	loop:0	f:107	g:91	h:16	tFireFrom:6	Depth:59 tEnabled:1 8 11 	M:1 6 7 10 14 15 18 20(3)21(5)	R:[6，1]:3 [7，1]:4 
+61)	loop:0	f:107	g:91	h:16	tFireFrom:1	Depth:60 tEnabled:2 3 8 	M:2 6 7 10 14 15 20(3)21(5)	R:[2，1]:3 [6，1]:3 [7，1]:4 
+62)	loop:0	f:107	g:94	h:13	tFireFrom:3	Depth:61 tEnabled:4 8 11 	M:4 6 7 10 15 18 20(3)21(5)	R:[4，1]:4 [7，1]:1 
+63)	loop:0	f:107	g:94	h:13	tFireFrom:11	Depth:62 tEnabled:8 12 	M:4 6 7 11 15 17 20(3)21(5)	R:[4，1]:4 [7，1]:1 [11，1]:4 
+64)	loop:0	f:107	g:95	h:12	tFireFrom:8	Depth:63 tEnabled:7 12 	M:4 6 11 15 17 19 20(4)21(5)	R:[4，1]:3 [11，1]:3 
+65)	loop:0	f:107	g:95	h:12	tFireFrom:7	Depth:64 tEnabled:8 12 	M:4 7 11 15 16 17 20(4)21(5)	R:[4，1]:3 [7，1]:5 [11，1]:3 
+66)	loop:0	f:107	g:98	h:9	tFireFrom:12	Depth:65 tEnabled:4 8 13 	M:4 7 12 16 17 18 20(4)21(5)	R:[7，1]:2 [12，1]:3 
+67)	loop:0	f:107	g:98	h:9	tFireFrom:4	Depth:66 tEnabled:6 8 	M:5 7 12 14 16 17 20(4)21(5)	R:[5，1]:4 [7，1]:2 [12，1]:3 
+68)	loop:0	f:107	g:100	h:7	tFireFrom:8	Depth:67 tEnabled:6 	M:5 12 14 16 17 19 20(5)21(5)	R:[5，1]:2 [12，1]:1 
+69)	loop:0	f:107	g:102	h:5	tFireFrom:6	Depth:68 tEnabled:7 13 	M:6 12 14 17 18 19 20(5)21(5)	R:[6，1]:3 
+70)	loop:0	f:107	g:102	h:5	tFireFrom:13	Depth:69 tEnabled:7 14 	M:6 13 14 15 17 19 20(5)21(5)	R:[6，1]:3 [13，1]:5 
+71)	loop:0	f:110	g:105	h:5	tFireFrom:7	Depth:70 tEnabled:8 14 	M:7 13 14 15 16 17 20(5)21(5)	R:[7，1]:5 [13，1]:2 
+72)	loop:0	f:110	g:107	h:3	tFireFrom:14	Depth:71 tEnabled:8 	M:7 14 15 16 17 18 20(5)21(6)	R:[7，1]:3 
+73)	loop:0	f:110	g:110	h:0	tFireFrom:8	Depth:72 tEnabled:	M:14 15 16 17 18 19 20(6)21(6)	R:
+=============================================================
+=======================End of a run==========================
+
+
+
+
