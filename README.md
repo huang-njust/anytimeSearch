@@ -12,7 +12,7 @@ For more information about its procedures, please refer to:
 
 [2] A Petri Net-based Anytime A∗ Search for Scheduling Resource Allocation Systems. Submitted.
 
-If you have any question about it, please feel free to contact me.
+If you have any question about them, please feel free to contact me.
 
 Bo Huang, email: huangbo@njust.edu.cn
 
